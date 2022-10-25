@@ -1,5 +1,5 @@
 import Model
-from Model.Game import Game, NShowDown
+from Model.Game import Game
 from Model.Move import Move, MoveRef, PlayerMove
 from Model.Player import Player
 import Enum
