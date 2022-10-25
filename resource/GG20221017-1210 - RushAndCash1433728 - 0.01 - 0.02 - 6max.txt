@@ -1,0 +1,2413 @@
+Poker Hand #RC210503728: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:18:35
+Table 'RushAndCash1433728' 6-max Seat #1 is the button
+Seat 1: Hero ($2.02 in chips)
+Seat 2: cf5ed34a ($2.14 in chips)
+Seat 3: 37c4d475 ($11.95 in chips)
+Seat 4: 5fe1cedb ($1 in chips)
+Seat 5: 4911c40d ($7.15 in chips)
+Seat 6: eaa1594f ($2.01 in chips)
+cf5ed34a: posts small blind $0.01
+37c4d475: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [3s Kc 8s Js]
+Dealt to cf5ed34a 
+Dealt to 37c4d475 
+Dealt to 5fe1cedb 
+Dealt to 4911c40d 
+Dealt to eaa1594f 
+5fe1cedb: raises $0.05 to $0.07
+4911c40d: folds
+eaa1594f: folds
+Hero: folds
+cf5ed34a: folds
+37c4d475: folds
+Uncalled bet ($0.05) returned to 5fe1cedb
+*** SHOWDOWN ***
+5fe1cedb collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: cf5ed34a (small blind) folded before Flop
+Seat 3: 37c4d475 (big blind) folded before Flop
+Seat 4: 5fe1cedb collected ($0.05)
+Seat 5: 4911c40d folded before Flop (didn't bet)
+Seat 6: eaa1594f folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503722: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:18:30
+Table 'RushAndCash1433722' 6-max Seat #1 is the button
+Seat 1: 104eb1c5 ($2.01 in chips)
+Seat 2: 4910107b ($4.95 in chips)
+Seat 3: 8fe11fa5 ($1.89 in chips)
+Seat 4: fb4d9afa ($2 in chips)
+Seat 5: f37be070 ($3.26 in chips)
+Seat 6: Hero ($2.02 in chips)
+4910107b: posts small blind $0.01
+8fe11fa5: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 104eb1c5 
+Dealt to 4910107b 
+Dealt to 8fe11fa5 
+Dealt to fb4d9afa 
+Dealt to f37be070 
+Dealt to Hero [Kd 8d Jh Tc]
+fb4d9afa: raises $0.05 to $0.07
+f37be070: folds
+Hero: folds
+104eb1c5: folds
+4910107b: folds
+8fe11fa5: calls $0.05
+*** FLOP *** [4h 5s 6c]
+8fe11fa5: checks
+fb4d9afa: checks
+*** TURN *** [4h 5s 6c] [9h]
+8fe11fa5: checks
+fb4d9afa: checks
+*** RIVER *** [4h 5s 6c 9h] [8h]
+8fe11fa5: checks
+fb4d9afa: checks
+8fe11fa5: shows [7d 7s As Jd] (Pair of Sevens)
+fb4d9afa: shows [Qs Qd Ts 3d] (Pair of Queens)
+*** SHOWDOWN ***
+fb4d9afa collected $0.15 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0 | Jackpot $0 | Bingo $0
+Board [4h 5s 6c 9h 8h]
+Seat 1: 104eb1c5 (button) folded before Flop (didn't bet)
+Seat 2: 4910107b (small blind) folded before Flop
+Seat 3: 8fe11fa5 (big blind) showed [7d 7s As Jd] and lost with Pair of Sevens
+Seat 4: fb4d9afa showed [Qs Qd Ts 3d] and won ($0.15) with Pair of Queens
+Seat 5: f37be070 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503718: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:18:25
+Table 'RushAndCash1433718' 6-max Seat #1 is the button
+Seat 1: 881a6eeb ($1.29 in chips)
+Seat 2: Hero ($2.03 in chips)
+Seat 3: d7d188d ($1.78 in chips)
+Seat 4: 3e16f49b ($3.7 in chips)
+Seat 5: 6bebb13 ($4.93 in chips)
+Seat 6: fb4d9afa ($2 in chips)
+Hero: posts small blind $0.01
+d7d188d: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 881a6eeb 
+Dealt to Hero [Td 4s Qd 6h]
+Dealt to d7d188d 
+Dealt to 3e16f49b 
+Dealt to 6bebb13 
+Dealt to fb4d9afa 
+3e16f49b: folds
+6bebb13: raises $0.05 to $0.07
+fb4d9afa: folds
+881a6eeb: folds
+Hero: folds
+d7d188d: calls $0.05
+*** FLOP *** [5c Jh 2c]
+d7d188d: checks
+6bebb13: checks
+*** TURN *** [5c Jh 2c] [Ac]
+d7d188d: checks
+6bebb13: checks
+*** RIVER *** [5c Jh 2c Ac] [Qc]
+d7d188d: checks
+6bebb13: checks
+d7d188d: shows [3h Th Kc Ad] (Aces-High Straight)
+6bebb13: shows [8s 9c 3s Ks] (Ace-High)
+*** SHOWDOWN ***
+d7d188d collected $0.15 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0 | Jackpot $0 | Bingo $0
+Board [5c Jh 2c Ac Qc]
+Seat 1: 881a6eeb (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: d7d188d (big blind) showed [3h Th Kc Ad] and won ($0.15) with Aces-High Straight
+Seat 4: 3e16f49b folded before Flop (didn't bet)
+Seat 5: 6bebb13 showed [8s 9c 3s Ks] and lost with Ace-High
+Seat 6: fb4d9afa folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503679: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:17:54
+Table 'RushAndCash1433679' 6-max Seat #1 is the button
+Seat 1: 15c02f3e ($3.6 in chips)
+Seat 2: 94744937 ($1.21 in chips)
+Seat 3: Hero ($2.07 in chips)
+Seat 4: a8441bb2 ($2.82 in chips)
+Seat 5: c36f506e ($2.04 in chips)
+Seat 6: 881a6eeb ($1.24 in chips)
+94744937: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 15c02f3e 
+Dealt to 94744937 
+Dealt to Hero [6s 8c Tc As]
+Dealt to a8441bb2 
+Dealt to c36f506e 
+Dealt to 881a6eeb 
+a8441bb2: folds
+c36f506e: folds
+881a6eeb: raises $0.02 to $0.04
+15c02f3e: folds
+94744937: folds
+Hero: calls $0.02
+*** FLOP *** [Jd Qh 4s]
+Hero: checks
+881a6eeb: checks
+*** TURN *** [Jd Qh 4s] [2c]
+Hero: checks
+881a6eeb: checks
+*** RIVER *** [Jd Qh 4s 2c] [Js]
+Hero: checks
+881a6eeb: bets $0.09
+Hero: folds
+Uncalled bet ($0.09) returned to 881a6eeb
+*** SHOWDOWN ***
+881a6eeb collected $0.09 from pot
+*** SUMMARY ***
+Total pot $0.09 | Rake $0 | Jackpot $0 | Bingo $0
+Board [Jd Qh 4s 2c Js]
+Seat 1: 15c02f3e (button) folded before Flop (didn't bet)
+Seat 2: 94744937 (small blind) folded before Flop
+Seat 3: Hero (big blind) folded on the River
+Seat 4: a8441bb2 folded before Flop (didn't bet)
+Seat 5: c36f506e folded before Flop (didn't bet)
+Seat 6: 881a6eeb won ($0.09)
+
+
+Poker Hand #RC210503671: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:17:48
+Table 'RushAndCash1433671' 6-max Seat #1 is the button
+Seat 1: 8b276e75 ($3.74 in chips)
+Seat 2: a9fe2d0b ($2.04 in chips)
+Seat 3: 464a7a9e ($3.69 in chips)
+Seat 4: Hero ($2.07 in chips)
+Seat 5: 7c5652dd ($1.66 in chips)
+Seat 6: 2e10a0de ($3.01 in chips)
+a9fe2d0b: posts small blind $0.01
+464a7a9e: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 8b276e75 
+Dealt to a9fe2d0b 
+Dealt to 464a7a9e 
+Dealt to Hero [2h Ts Kc As]
+Dealt to 7c5652dd 
+Dealt to 2e10a0de 
+Hero: folds
+7c5652dd: folds
+2e10a0de: folds
+8b276e75: folds
+a9fe2d0b: calls $0.01
+464a7a9e: raises $0.04 to $0.06
+a9fe2d0b: folds
+Uncalled bet ($0.04) returned to 464a7a9e
+*** SHOWDOWN ***
+464a7a9e collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 8b276e75 (button) folded before Flop (didn't bet)
+Seat 2: a9fe2d0b (small blind) folded before Flop
+Seat 3: 464a7a9e (big blind) collected ($0.04)
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 7c5652dd folded before Flop (didn't bet)
+Seat 6: 2e10a0de folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503658: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:17:39
+Table 'RushAndCash1433658' 6-max Seat #1 is the button
+Seat 1: Hero ($2.07 in chips)
+Seat 2: e5b8bb4a ($2 in chips)
+Seat 3: 9c6403ee ($2.77 in chips)
+Seat 4: 8c4aaa6c ($2.11 in chips)
+Seat 5: c36f506e ($2.05 in chips)
+Seat 6: 7f353e9e ($1.25 in chips)
+e5b8bb4a: posts small blind $0.01
+9c6403ee: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [5d 8d 3c 8s]
+Dealt to e5b8bb4a 
+Dealt to 9c6403ee 
+Dealt to 8c4aaa6c 
+Dealt to c36f506e 
+Dealt to 7f353e9e 
+8c4aaa6c: folds
+c36f506e: folds
+7f353e9e: folds
+Hero: folds
+e5b8bb4a: raises $0.04 to $0.06
+9c6403ee: folds
+Uncalled bet ($0.04) returned to e5b8bb4a
+*** SHOWDOWN ***
+e5b8bb4a collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: e5b8bb4a (small blind) collected ($0.04)
+Seat 3: 9c6403ee (big blind) folded before Flop
+Seat 4: 8c4aaa6c folded before Flop (didn't bet)
+Seat 5: c36f506e folded before Flop (didn't bet)
+Seat 6: 7f353e9e folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503644: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:17:30
+Table 'RushAndCash1433644' 6-max Seat #1 is the button
+Seat 1: beafbd4f ($4.56 in chips)
+Seat 2: 1543fbd6 ($3.3 in chips)
+Seat 3: a8441bb2 ($2.81 in chips)
+Seat 4: 8bff2aae ($2.48 in chips)
+Seat 5: Hero ($2.07 in chips)
+Seat 6: 5e8f11a3 ($2.1 in chips)
+1543fbd6: posts small blind $0.01
+a8441bb2: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to beafbd4f 
+Dealt to 1543fbd6 
+Dealt to a8441bb2 
+Dealt to 8bff2aae 
+Dealt to Hero [Ah 5h Tc 4d]
+Dealt to 5e8f11a3 
+8bff2aae: folds
+Hero: folds
+5e8f11a3: folds
+beafbd4f: folds
+1543fbd6: folds
+Uncalled bet ($0.01) returned to a8441bb2
+*** SHOWDOWN ***
+a8441bb2 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: beafbd4f (button) folded before Flop (didn't bet)
+Seat 2: 1543fbd6 (small blind) folded before Flop
+Seat 3: a8441bb2 (big blind) collected ($0.02)
+Seat 4: 8bff2aae folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 5e8f11a3 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503636: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:17:26
+Table 'RushAndCash1433636' 6-max Seat #1 is the button
+Seat 1: fb4d9afa ($2.04 in chips)
+Seat 2: Hero ($2.08 in chips)
+Seat 3: c9a88dd9 ($5.2 in chips)
+Seat 4: 74602857 ($2.03 in chips)
+Seat 5: a71e7157 ($2.28 in chips)
+Seat 6: 3e16f49b ($3.7 in chips)
+Hero: posts small blind $0.01
+c9a88dd9: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to fb4d9afa 
+Dealt to Hero [Ac 2d Td 6d]
+Dealt to c9a88dd9 
+Dealt to 74602857 
+Dealt to a71e7157 
+Dealt to 3e16f49b 
+74602857: folds
+a71e7157: folds
+3e16f49b: raises $0.05 to $0.07
+fb4d9afa: folds
+Hero: folds
+c9a88dd9: folds
+Uncalled bet ($0.05) returned to 3e16f49b
+*** SHOWDOWN ***
+3e16f49b collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: fb4d9afa (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: c9a88dd9 (big blind) folded before Flop
+Seat 4: 74602857 folded before Flop (didn't bet)
+Seat 5: a71e7157 folded before Flop (didn't bet)
+Seat 6: 3e16f49b collected ($0.05)
+
+
+Poker Hand #RC210503626: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:17:19
+Table 'RushAndCash1433626' 6-max Seat #1 is the button
+Seat 1: d1282612 ($1.93 in chips)
+Seat 2: ad9db860 ($1.93 in chips)
+Seat 3: Hero ($2.1 in chips)
+Seat 4: e5b8bb4a ($2 in chips)
+Seat 5: a71e7157 ($2.28 in chips)
+Seat 6: cd24f8b ($2.03 in chips)
+ad9db860: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to d1282612 
+Dealt to ad9db860 
+Dealt to Hero [9s Kc 7c 2s]
+Dealt to e5b8bb4a 
+Dealt to a71e7157 
+Dealt to cd24f8b 
+e5b8bb4a: folds
+a71e7157: folds
+cd24f8b: raises $0.04 to $0.06
+d1282612: folds
+ad9db860: calls $0.05
+Hero: folds
+*** FLOP *** [6h Ah Jd]
+ad9db860: checks
+cd24f8b: bets $0.14
+ad9db860: folds
+Uncalled bet ($0.14) returned to cd24f8b
+*** SHOWDOWN ***
+cd24f8b collected $0.14 from pot
+*** SUMMARY ***
+Total pot $0.14 | Rake $0 | Jackpot $0 | Bingo $0
+Board [6h Ah Jd]
+Seat 1: d1282612 (button) folded before Flop (didn't bet)
+Seat 2: ad9db860 (small blind) folded on the Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: e5b8bb4a folded before Flop (didn't bet)
+Seat 5: a71e7157 folded before Flop (didn't bet)
+Seat 6: cd24f8b won ($0.14)
+
+
+Poker Hand #RC210503619: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:17:15
+Table 'RushAndCash1433619' 6-max Seat #1 is the button
+Seat 1: 74602857 ($2.05 in chips)
+Seat 2: 130bedd5 ($3.39 in chips)
+Seat 3: d7d188d ($1.42 in chips)
+Seat 4: Hero ($2.1 in chips)
+Seat 5: a71e7157 ($2.28 in chips)
+Seat 6: 203e6d1e ($2.18 in chips)
+130bedd5: posts small blind $0.01
+d7d188d: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 74602857 
+Dealt to 130bedd5 
+Dealt to d7d188d 
+Dealt to Hero [Th 4c Kd 9h]
+Dealt to a71e7157 
+Dealt to 203e6d1e 
+Hero: folds
+a71e7157: folds
+203e6d1e: folds
+74602857: folds
+130bedd5: calls $0.01
+d7d188d: checks
+*** FLOP *** [7c 6s 8s]
+130bedd5: bets $0.02
+d7d188d: folds
+Uncalled bet ($0.02) returned to 130bedd5
+*** SHOWDOWN ***
+130bedd5 collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0
+Board [7c 6s 8s]
+Seat 1: 74602857 (button) folded before Flop (didn't bet)
+Seat 2: 130bedd5 (small blind) won ($0.04)
+Seat 3: d7d188d (big blind) folded on the Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: a71e7157 folded before Flop (didn't bet)
+Seat 6: 203e6d1e folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503614: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:17:12
+Table 'RushAndCash1433614' 6-max Seat #1 is the button
+Seat 1: 3e1720ed ($4.97 in chips)
+Seat 2: d7d188d ($1.43 in chips)
+Seat 3: 94197406 ($0.4 in chips)
+Seat 4: 203e6d1e ($2.18 in chips)
+Seat 5: Hero ($2.1 in chips)
+Seat 6: 75c62ea5 ($0.73 in chips)
+d7d188d: posts small blind $0.01
+94197406: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 3e1720ed 
+Dealt to d7d188d 
+Dealt to 94197406 
+Dealt to 203e6d1e 
+Dealt to Hero [3s Kh Jc Td]
+Dealt to 75c62ea5 
+203e6d1e: folds
+Hero: folds
+75c62ea5: folds
+3e1720ed: folds
+d7d188d: folds
+Uncalled bet ($0.01) returned to 94197406
+*** SHOWDOWN ***
+94197406 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 3e1720ed (button) folded before Flop (didn't bet)
+Seat 2: d7d188d (small blind) folded before Flop
+Seat 3: 94197406 (big blind) collected ($0.02)
+Seat 4: 203e6d1e folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 75c62ea5 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503608: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:17:08
+Table 'RushAndCash1433608' 6-max Seat #1 is the button
+Seat 1: Hero ($2.1 in chips)
+Seat 2: 104eb1c5 ($2.05 in chips)
+Seat 3: c36f506e ($2.05 in chips)
+Seat 4: faf7ac43 ($6.93 in chips)
+Seat 5: 7a7a281b ($2.48 in chips)
+Seat 6: 60e5cd34 ($4.26 in chips)
+104eb1c5: posts small blind $0.01
+c36f506e: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [7s 3h 6h 2d]
+Dealt to 104eb1c5 
+Dealt to c36f506e 
+Dealt to faf7ac43 
+Dealt to 7a7a281b 
+Dealt to 60e5cd34 
+faf7ac43: folds
+7a7a281b: folds
+60e5cd34: folds
+Hero: folds
+104eb1c5: folds
+Uncalled bet ($0.01) returned to c36f506e
+*** SHOWDOWN ***
+c36f506e collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 104eb1c5 (small blind) folded before Flop
+Seat 3: c36f506e (big blind) collected ($0.02)
+Seat 4: faf7ac43 folded before Flop (didn't bet)
+Seat 5: 7a7a281b folded before Flop (didn't bet)
+Seat 6: 60e5cd34 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503601: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:17:03
+Table 'RushAndCash1433601' 6-max Seat #1 is the button
+Seat 1: 9c6403ee ($2.77 in chips)
+Seat 2: fdc1ef9 ($0.37 in chips)
+Seat 3: 130bedd5 ($3.38 in chips)
+Seat 4: 203e6d1e ($2.18 in chips)
+Seat 5: Hero ($2.1 in chips)
+Seat 6: d7d188d ($1.43 in chips)
+fdc1ef9: posts small blind $0.01
+130bedd5: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 9c6403ee 
+Dealt to fdc1ef9 
+Dealt to 130bedd5 
+Dealt to 203e6d1e 
+Dealt to Hero [Qh 2s 5s Qs]
+Dealt to d7d188d 
+203e6d1e: folds
+Hero: folds
+d7d188d: folds
+9c6403ee: folds
+fdc1ef9: folds
+Uncalled bet ($0.01) returned to 130bedd5
+*** SHOWDOWN ***
+130bedd5 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 9c6403ee (button) folded before Flop (didn't bet)
+Seat 2: fdc1ef9 (small blind) folded before Flop
+Seat 3: 130bedd5 (big blind) collected ($0.02)
+Seat 4: 203e6d1e folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: d7d188d folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503588: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:16:53
+Table 'RushAndCash1433588' 6-max Seat #1 is the button
+Seat 1: Hero ($2.1 in chips)
+Seat 2: 513a46e9 ($2 in chips)
+Seat 3: 31fdcf0c ($2 in chips)
+Seat 4: 2ca35b75 ($3.76 in chips)
+Seat 5: dcdbcf01 ($2.21 in chips)
+Seat 6: f9ec9c8e ($1.41 in chips)
+513a46e9: posts small blind $0.01
+31fdcf0c: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9d 5d 4s 9s]
+Dealt to 513a46e9 
+Dealt to 31fdcf0c 
+Dealt to 2ca35b75 
+Dealt to dcdbcf01 
+Dealt to f9ec9c8e 
+2ca35b75: raises $0.05 to $0.07
+dcdbcf01: folds
+f9ec9c8e: calls $0.07
+Hero: folds
+513a46e9: calls $0.06
+31fdcf0c: calls $0.05
+*** FLOP *** [7h Ks 3c]
+513a46e9: checks
+31fdcf0c: checks
+2ca35b75: checks
+f9ec9c8e: bets $0.16
+513a46e9: folds
+31fdcf0c: folds
+2ca35b75: folds
+Uncalled bet ($0.16) returned to f9ec9c8e
+*** SHOWDOWN ***
+f9ec9c8e collected $0.27 from pot
+*** SUMMARY ***
+Total pot $0.28 | Rake $0.01 | Jackpot $0 | Bingo $0
+Board [7h Ks 3c]
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 513a46e9 (small blind) folded on the Flop
+Seat 3: 31fdcf0c (big blind) folded on the Flop
+Seat 4: 2ca35b75 folded on the Flop
+Seat 5: dcdbcf01 folded before Flop (didn't bet)
+Seat 6: f9ec9c8e won ($0.27)
+
+
+Poker Hand #RC210503561: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:16:33
+Table 'RushAndCash1433561' 6-max Seat #1 is the button
+Seat 1: c2ad3a59 ($2.29 in chips)
+Seat 2: f6ab1256 ($1.49 in chips)
+Seat 3: d9ec850a ($1.17 in chips)
+Seat 4: cd24f8b ($2.03 in chips)
+Seat 5: Hero ($2.04 in chips)
+Seat 6: 15c02f3e ($3.36 in chips)
+f6ab1256: posts small blind $0.01
+d9ec850a: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to c2ad3a59 
+Dealt to f6ab1256 
+Dealt to d9ec850a 
+Dealt to cd24f8b 
+Dealt to Hero [Ks Qc Ad 8h]
+Dealt to 15c02f3e 
+cd24f8b: folds
+Hero: raises $0.04 to $0.06
+15c02f3e: folds
+c2ad3a59: folds
+f6ab1256: folds
+d9ec850a: folds
+Uncalled bet ($0.04) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: c2ad3a59 (button) folded before Flop (didn't bet)
+Seat 2: f6ab1256 (small blind) folded before Flop
+Seat 3: d9ec850a (big blind) folded before Flop
+Seat 4: cd24f8b folded before Flop (didn't bet)
+Seat 5: Hero collected ($0.05)
+Seat 6: 15c02f3e folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503557: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:16:29
+Table 'RushAndCash1433557' 6-max Seat #1 is the button
+Seat 1: 8cc02f70 ($2.82 in chips)
+Seat 2: Hero ($2.05 in chips)
+Seat 3: 857f32af ($2 in chips)
+Seat 4: d9ec850a ($1.17 in chips)
+Seat 5: 37c4d475 ($12.01 in chips)
+Seat 6: c808e4c ($6 in chips)
+Hero: posts small blind $0.01
+857f32af: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 8cc02f70 
+Dealt to Hero [Qd 8d 7s Kc]
+Dealt to 857f32af 
+Dealt to d9ec850a 
+Dealt to 37c4d475 
+Dealt to c808e4c 
+d9ec850a: folds
+37c4d475: folds
+c808e4c: folds
+8cc02f70: raises $0.03 to $0.05
+Hero: folds
+857f32af: folds
+Uncalled bet ($0.03) returned to 8cc02f70
+*** SHOWDOWN ***
+8cc02f70 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 8cc02f70 (button) collected ($0.05)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 857f32af (big blind) folded before Flop
+Seat 4: d9ec850a folded before Flop (didn't bet)
+Seat 5: 37c4d475 folded before Flop (didn't bet)
+Seat 6: c808e4c folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503554: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:16:25
+Table 'RushAndCash1433554' 6-max Seat #1 is the button
+Seat 1: c808e4c ($6 in chips)
+Seat 2: fb4d9afa ($2.08 in chips)
+Seat 3: Hero ($2.07 in chips)
+Seat 4: 26d39fa6 ($2.03 in chips)
+Seat 5: 2c856b26 ($1.87 in chips)
+Seat 6: bb6da66 ($2.02 in chips)
+fb4d9afa: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to c808e4c 
+Dealt to fb4d9afa 
+Dealt to Hero [9h Qs 2h 3d]
+Dealt to 26d39fa6 
+Dealt to 2c856b26 
+Dealt to bb6da66 
+26d39fa6: folds
+2c856b26: folds
+bb6da66: folds
+c808e4c: folds
+fb4d9afa: folds
+Uncalled bet ($0.01) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: c808e4c (button) folded before Flop (didn't bet)
+Seat 2: fb4d9afa (small blind) folded before Flop
+Seat 3: Hero (big blind) collected ($0.02)
+Seat 4: 26d39fa6 folded before Flop (didn't bet)
+Seat 5: 2c856b26 folded before Flop (didn't bet)
+Seat 6: bb6da66 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503550: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:16:22
+Table 'RushAndCash1433550' 6-max Seat #1 is the button
+Seat 1: 1f5e0234 ($1.97 in chips)
+Seat 2: 8653321 ($2.14 in chips)
+Seat 3: 2c856b26 ($1.89 in chips)
+Seat 4: Hero ($2.07 in chips)
+Seat 5: c36f506e ($2.08 in chips)
+Seat 6: f6ab1256 ($1.49 in chips)
+8653321: posts small blind $0.01
+2c856b26: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 1f5e0234 
+Dealt to 8653321 
+Dealt to 2c856b26 
+Dealt to Hero [Kc 6c 6s Ts]
+Dealt to c36f506e 
+Dealt to f6ab1256 
+Hero: folds
+c36f506e: folds
+f6ab1256: folds
+1f5e0234: raises $0.05 to $0.07
+8653321: calls $0.06
+2c856b26: folds
+*** FLOP *** [4c 4d 9c]
+8653321: checks
+1f5e0234: bets $0.16
+8653321: folds
+Uncalled bet ($0.16) returned to 1f5e0234
+*** SHOWDOWN ***
+1f5e0234 collected $0.16 from pot
+*** SUMMARY ***
+Total pot $0.16 | Rake $0 | Jackpot $0 | Bingo $0
+Board [4c 4d 9c]
+Seat 1: 1f5e0234 (button) won ($0.16)
+Seat 2: 8653321 (small blind) folded on the Flop
+Seat 3: 2c856b26 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: c36f506e folded before Flop (didn't bet)
+Seat 6: f6ab1256 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503546: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:16:19
+Table 'RushAndCash1433546' 6-max Seat #1 is the button
+Seat 1: dbc09a02 ($1.42 in chips)
+Seat 2: c2ad3a59 ($2.3 in chips)
+Seat 3: 9535f7e8 ($3.65 in chips)
+Seat 4: 668beb64 ($2.06 in chips)
+Seat 5: Hero ($2.07 in chips)
+Seat 6: eeb313c ($1.49 in chips)
+c2ad3a59: posts small blind $0.01
+9535f7e8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to dbc09a02 
+Dealt to c2ad3a59 
+Dealt to 9535f7e8 
+Dealt to 668beb64 
+Dealt to Hero [Js 6s 5c 2c]
+Dealt to eeb313c 
+668beb64: folds
+Hero: folds
+eeb313c: folds
+dbc09a02: raises $0.03 to $0.05
+c2ad3a59: folds
+9535f7e8: folds
+Uncalled bet ($0.03) returned to dbc09a02
+*** SHOWDOWN ***
+dbc09a02 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: dbc09a02 (button) collected ($0.05)
+Seat 2: c2ad3a59 (small blind) folded before Flop
+Seat 3: 9535f7e8 (big blind) folded before Flop
+Seat 4: 668beb64 folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: eeb313c folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503542: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:16:15
+Table 'RushAndCash1433542' 6-max Seat #1 is the button
+Seat 1: 7b3b96c4 ($1.59 in chips)
+Seat 2: cd24f8b ($2.04 in chips)
+Seat 3: 8fe11fa5 ($2 in chips)
+Seat 4: Hero ($2.07 in chips)
+Seat 5: 3ef81d42 ($4.23 in chips)
+Seat 6: d01941c1 ($2.2 in chips)
+cd24f8b: posts small blind $0.01
+8fe11fa5: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 7b3b96c4 
+Dealt to cd24f8b 
+Dealt to 8fe11fa5 
+Dealt to Hero [6h 3h 2d As]
+Dealt to 3ef81d42 
+Dealt to d01941c1 
+Hero: folds
+3ef81d42: folds
+d01941c1: folds
+7b3b96c4: raises $0.05 to $0.07
+cd24f8b: folds
+8fe11fa5: folds
+Uncalled bet ($0.05) returned to 7b3b96c4
+*** SHOWDOWN ***
+7b3b96c4 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 7b3b96c4 (button) collected ($0.05)
+Seat 2: cd24f8b (small blind) folded before Flop
+Seat 3: 8fe11fa5 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 3ef81d42 folded before Flop (didn't bet)
+Seat 6: d01941c1 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503525: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:16:01
+Table 'RushAndCash1433525' 6-max Seat #1 is the button
+Seat 1: 82769a73 ($2.4 in chips)
+Seat 2: 6cfb2fb7 ($0.33 in chips)
+Seat 3: 5e8f11a3 ($2.13 in chips)
+Seat 4: 91015faa ($5.81 in chips)
+Seat 5: Hero ($2.04 in chips)
+Seat 6: dcdbcf01 ($2 in chips)
+6cfb2fb7: posts small blind $0.01
+5e8f11a3: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 82769a73 
+Dealt to 6cfb2fb7 
+Dealt to 5e8f11a3 
+Dealt to 91015faa 
+Dealt to Hero [6c 8d Ad As]
+Dealt to dcdbcf01 
+91015faa: folds
+Hero: raises $0.02 to $0.04
+dcdbcf01: folds
+82769a73: folds
+6cfb2fb7: folds
+5e8f11a3: folds
+Uncalled bet ($0.02) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 82769a73 (button) folded before Flop (didn't bet)
+Seat 2: 6cfb2fb7 (small blind) folded before Flop
+Seat 3: 5e8f11a3 (big blind) folded before Flop
+Seat 4: 91015faa folded before Flop (didn't bet)
+Seat 5: Hero collected ($0.05)
+Seat 6: dcdbcf01 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503519: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:15:56
+Table 'RushAndCash1433519' 6-max Seat #1 is the button
+Seat 1: Hero ($2.04 in chips)
+Seat 2: d01941c1 ($2.21 in chips)
+Seat 3: 7d66e178 ($2.78 in chips)
+Seat 4: 75c62ea5 ($1.43 in chips)
+Seat 5: 1b754f2e ($1.85 in chips)
+Seat 6: 74602857 ($2.09 in chips)
+d01941c1: posts small blind $0.01
+7d66e178: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [2d Kd 4s Ad]
+Dealt to d01941c1 
+Dealt to 7d66e178 
+Dealt to 75c62ea5 
+Dealt to 1b754f2e 
+Dealt to 74602857 
+75c62ea5: calls $0.02
+1b754f2e: folds
+74602857: folds
+Hero: folds
+d01941c1: folds
+7d66e178: raises $0.05 to $0.07
+75c62ea5: calls $0.05
+*** FLOP *** [Tc 4d 5d]
+7d66e178: bets $0.08
+75c62ea5: calls $0.08
+*** TURN *** [Tc 4d 5d] [3h]
+7d66e178: checks
+75c62ea5: bets $0.16
+7d66e178: calls $0.16
+*** RIVER *** [Tc 4d 5d 3h] [3s]
+7d66e178: bets $0.4
+75c62ea5: calls $0.4
+7d66e178: shows [6d 4h Td Th] (Tens Full over Treys)
+75c62ea5: shows [5s Kh Jc Ks] (Pair of Kings and Pair of Treys)
+*** SHOWDOWN ***
+7d66e178 collected $1.34 from pot
+*** SUMMARY ***
+Total pot $1.43 | Rake $0.06 | Jackpot $0.03 | Bingo $0
+Board [Tc 4d 5d 3h 3s]
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: d01941c1 (small blind) folded before Flop
+Seat 3: 7d66e178 (big blind) showed [6d 4h Td Th] and won ($1.34) with Tens Full over Treys
+Seat 4: 75c62ea5 showed [5s Kh Jc Ks] and lost with Pair of Kings and Pair of Treys
+Seat 5: 1b754f2e folded before Flop (didn't bet)
+Seat 6: 74602857 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503514: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:15:53
+Table 'RushAndCash1433514' 6-max Seat #1 is the button
+Seat 1: df432b24 ($6.36 in chips)
+Seat 2: 100ced53 ($1.04 in chips)
+Seat 3: Hero ($2.06 in chips)
+Seat 4: 29d64de8 ($2.32 in chips)
+Seat 5: 91015faa ($5.81 in chips)
+Seat 6: a9fe2d0b ($2.06 in chips)
+100ced53: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to df432b24 
+Dealt to 100ced53 
+Dealt to Hero [7s 5s Kc 2c]
+Dealt to 29d64de8 
+Dealt to 91015faa 
+Dealt to a9fe2d0b 
+29d64de8: folds
+91015faa: folds
+a9fe2d0b: raises $0.02 to $0.04
+df432b24: folds
+100ced53: folds
+Hero: folds
+Uncalled bet ($0.02) returned to a9fe2d0b
+*** SHOWDOWN ***
+a9fe2d0b collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: df432b24 (button) folded before Flop (didn't bet)
+Seat 2: 100ced53 (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: 29d64de8 folded before Flop (didn't bet)
+Seat 5: 91015faa folded before Flop (didn't bet)
+Seat 6: a9fe2d0b collected ($0.05)
+
+
+Poker Hand #RC210503508: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:15:49
+Table 'RushAndCash1433508' 6-max Seat #1 is the button
+Seat 1: 26d39fa6 ($2 in chips)
+Seat 2: Hero ($2.07 in chips)
+Seat 3: 1543fbd6 ($3.42 in chips)
+Seat 4: 94744937 ($0.4 in chips)
+Seat 5: 2924947a ($2.2 in chips)
+Seat 6: a8c902ce ($9.08 in chips)
+Hero: posts small blind $0.01
+1543fbd6: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 26d39fa6 
+Dealt to Hero [7d 6c 2c 6s]
+Dealt to 1543fbd6 
+Dealt to 94744937 
+Dealt to 2924947a 
+Dealt to a8c902ce 
+94744937: folds
+2924947a: folds
+a8c902ce: folds
+26d39fa6: raises $0.05 to $0.07
+Hero: folds
+1543fbd6: folds
+Uncalled bet ($0.05) returned to 26d39fa6
+*** SHOWDOWN ***
+26d39fa6 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 26d39fa6 (button) collected ($0.05)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 1543fbd6 (big blind) folded before Flop
+Seat 4: 94744937 folded before Flop (didn't bet)
+Seat 5: 2924947a folded before Flop (didn't bet)
+Seat 6: a8c902ce folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503502: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:15:46
+Table 'RushAndCash1433502' 6-max Seat #1 is the button
+Seat 1: 46c763e2 ($3.81 in chips)
+Seat 2: dcdbcf01 ($2 in chips)
+Seat 3: 35cefb2e ($3.73 in chips)
+Seat 4: 2924947a ($2.2 in chips)
+Seat 5: a71e7157 ($2.35 in chips)
+Seat 6: Hero ($2.07 in chips)
+dcdbcf01: posts small blind $0.01
+35cefb2e: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 46c763e2 
+Dealt to dcdbcf01 
+Dealt to 35cefb2e 
+Dealt to 2924947a 
+Dealt to a71e7157 
+Dealt to Hero [5c 3c 2c 8h]
+2924947a: folds
+a71e7157: folds
+Hero: folds
+46c763e2: folds
+dcdbcf01: folds
+Uncalled bet ($0.01) returned to 35cefb2e
+*** SHOWDOWN ***
+35cefb2e collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 46c763e2 (button) folded before Flop (didn't bet)
+Seat 2: dcdbcf01 (small blind) folded before Flop
+Seat 3: 35cefb2e (big blind) collected ($0.02)
+Seat 4: 2924947a folded before Flop (didn't bet)
+Seat 5: a71e7157 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503494: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:15:40
+Table 'RushAndCash1433494' 6-max Seat #1 is the button
+Seat 1: 857f32af ($2 in chips)
+Seat 2: 528e7793 ($4.36 in chips)
+Seat 3: 8b276e75 ($3.91 in chips)
+Seat 4: Hero ($2.07 in chips)
+Seat 5: a71e7157 ($2.35 in chips)
+Seat 6: 5e8f11a3 ($2.13 in chips)
+528e7793: posts small blind $0.01
+8b276e75: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 857f32af 
+Dealt to 528e7793 
+Dealt to 8b276e75 
+Dealt to Hero [Td Qd Kc 7d]
+Dealt to a71e7157 
+Dealt to 5e8f11a3 
+Hero: folds
+a71e7157: folds
+5e8f11a3: folds
+857f32af: folds
+528e7793: folds
+Uncalled bet ($0.01) returned to 8b276e75
+*** SHOWDOWN ***
+8b276e75 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 857f32af (button) folded before Flop (didn't bet)
+Seat 2: 528e7793 (small blind) folded before Flop
+Seat 3: 8b276e75 (big blind) collected ($0.02)
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: a71e7157 folded before Flop (didn't bet)
+Seat 6: 5e8f11a3 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503482: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:15:30
+Table 'RushAndCash1433482' 6-max Seat #1 is the button
+Seat 1: 9535f7e8 ($2.8 in chips)
+Seat 2: 865e027a ($2 in chips)
+Seat 3: 29ca7da3 ($2.06 in chips)
+Seat 4: eeb313c ($1.51 in chips)
+Seat 5: dbc09a02 ($2.15 in chips)
+Seat 6: Hero ($2.07 in chips)
+Cash Drop to Pot : total $0.2 
+865e027a: posts small blind $0.01
+29ca7da3: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 9535f7e8 
+Dealt to 865e027a 
+Dealt to 29ca7da3 
+Dealt to eeb313c 
+Dealt to dbc09a02 
+Dealt to Hero [5s 3s 3c 7h]
+eeb313c: calls $0.02
+dbc09a02: raises $0.14 to $0.16
+Hero: folds
+9535f7e8: raises $0.57 to $0.73
+865e027a: folds
+29ca7da3: folds
+eeb313c: folds
+dbc09a02: calls $0.57
+*** FLOP *** [8d 6d 2c]
+dbc09a02: checks
+9535f7e8: bets $0.86
+dbc09a02: folds
+Uncalled bet ($0.86) returned to 9535f7e8
+*** SHOWDOWN ***
+9535f7e8 collected $1.58 from pot
+*** SUMMARY ***
+Total pot $1.71 | Rake $0.1 | Jackpot $0.03 | Bingo $0
+Board [8d 6d 2c]
+Seat 1: 9535f7e8 (button) won ($1.58)
+Seat 2: 865e027a (small blind) folded before Flop
+Seat 3: 29ca7da3 (big blind) folded before Flop
+Seat 4: eeb313c folded before Flop
+Seat 5: dbc09a02 folded on the Flop
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503477: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:15:26
+Table 'RushAndCash1433477' 6-max Seat #1 is the button
+Seat 1: Hero ($2.07 in chips)
+Seat 2: f6da1f2c ($2 in chips)
+Seat 3: 81dd2fba ($2 in chips)
+Seat 4: 29ca7da3 ($2.06 in chips)
+Seat 5: 29882135 ($0.42 in chips)
+Seat 6: 8c4aaa6c ($2.06 in chips)
+f6da1f2c: posts small blind $0.01
+81dd2fba: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9c 4d Td 6h]
+Dealt to f6da1f2c 
+Dealt to 81dd2fba 
+Dealt to 29ca7da3 
+Dealt to 29882135 
+Dealt to 8c4aaa6c 
+29ca7da3: folds
+29882135: raises $0.05 to $0.07
+8c4aaa6c: folds
+Hero: folds
+f6da1f2c: folds
+81dd2fba: calls $0.05
+*** FLOP *** [5c Ac 4s]
+81dd2fba: checks
+29882135: bets $0.12
+81dd2fba: raises $0.39 to $0.51
+29882135: calls $0.23 and is all-in
+Uncalled bet ($0.16) returned to 81dd2fba
+81dd2fba: shows [8d Ad Kd 3d] (Pair of Aces)
+29882135: shows [Qc Qs 5s 6s] (Pair of Queens)
+*** TURN *** [5c Ac 4s] [Kc]
+*** RIVER *** [5c Ac 4s Kc] [9h]
+*** SHOWDOWN ***
+81dd2fba collected $0.78 from pot
+*** SUMMARY ***
+Total pot $0.85 | Rake $0.04 | Jackpot $0.03 | Bingo $0
+Board [5c Ac 4s Kc 9h]
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: f6da1f2c (small blind) folded before Flop
+Seat 3: 81dd2fba (big blind) showed [8d Ad Kd 3d] and won ($0.78) with Pair of Aces and Pair of Kings
+Seat 4: 29ca7da3 folded before Flop (didn't bet)
+Seat 5: 29882135 showed [Qc Qs 5s 6s] and lost with Pair of Queens
+Seat 6: 8c4aaa6c folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503472: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:15:22
+Table 'RushAndCash1433472' 6-max Seat #1 is the button
+Seat 1: c36f506e ($2 in chips)
+Seat 2: Hero ($2.08 in chips)
+Seat 3: d01941c1 ($2.23 in chips)
+Seat 4: 91015faa ($5.83 in chips)
+Seat 5: e8b0da3f ($4.85 in chips)
+Seat 6: 9535f7e8 ($2.8 in chips)
+Hero: posts small blind $0.01
+d01941c1: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to c36f506e 
+Dealt to Hero [5s 6s 2h 8c]
+Dealt to d01941c1 
+Dealt to 91015faa 
+Dealt to e8b0da3f 
+Dealt to 9535f7e8 
+91015faa: folds
+e8b0da3f: raises $0.05 to $0.07
+9535f7e8: folds
+c36f506e: folds
+Hero: folds
+d01941c1: folds
+Uncalled bet ($0.05) returned to e8b0da3f
+*** SHOWDOWN ***
+e8b0da3f collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: c36f506e (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: d01941c1 (big blind) folded before Flop
+Seat 4: 91015faa folded before Flop (didn't bet)
+Seat 5: e8b0da3f collected ($0.05)
+Seat 6: 9535f7e8 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503455: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:15:09
+Table 'RushAndCash1433455' 6-max Seat #1 is the button
+Seat 1: 8b276e75 ($3.95 in chips)
+Seat 2: c0eb8400 ($2.05 in chips)
+Seat 3: Hero ($2.07 in chips)
+Seat 4: 86c1e6d9 ($2.11 in chips)
+Seat 5: bfdace1c ($2.08 in chips)
+Seat 6: cd24f8b ($2 in chips)
+c0eb8400: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 8b276e75 
+Dealt to c0eb8400 
+Dealt to Hero [5d As 4c Ks]
+Dealt to 86c1e6d9 
+Dealt to bfdace1c 
+Dealt to cd24f8b 
+86c1e6d9: folds
+bfdace1c: folds
+cd24f8b: folds
+8b276e75: folds
+c0eb8400: folds
+Uncalled bet ($0.01) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 8b276e75 (button) folded before Flop (didn't bet)
+Seat 2: c0eb8400 (small blind) folded before Flop
+Seat 3: Hero (big blind) collected ($0.02)
+Seat 4: 86c1e6d9 folded before Flop (didn't bet)
+Seat 5: bfdace1c folded before Flop (didn't bet)
+Seat 6: cd24f8b folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503450: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:15:05
+Table 'RushAndCash1433450' 6-max Seat #1 is the button
+Seat 1: c21426f ($3.79 in chips)
+Seat 2: c36f506e ($2 in chips)
+Seat 3: 4393d94c ($2 in chips)
+Seat 4: 8b276e75 ($3.95 in chips)
+Seat 5: Hero ($2.07 in chips)
+Seat 6: 30cd7ca9 ($3.24 in chips)
+c36f506e: posts small blind $0.01
+4393d94c: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to c21426f 
+Dealt to c36f506e 
+Dealt to 4393d94c 
+Dealt to 8b276e75 
+Dealt to Hero [Qc 5c 2h Jc]
+Dealt to 30cd7ca9 
+8b276e75: folds
+Hero: folds
+30cd7ca9: folds
+c21426f: raises $0.02 to $0.04
+c36f506e: folds
+4393d94c: calls $0.02
+*** FLOP *** [As 9s Qd]
+4393d94c: checks
+c21426f: checks
+*** TURN *** [As 9s Qd] [Ts]
+4393d94c: checks
+c21426f: checks
+*** RIVER *** [As 9s Qd Ts] [5s]
+4393d94c: checks
+c21426f: checks
+4393d94c: shows [4d Ad 4h 5d] (Pair of Aces and Pair of Fives)
+c21426f: shows [3c Ac 6s 3d] (Pair of Aces)
+*** SHOWDOWN ***
+4393d94c collected $0.09 from pot
+*** SUMMARY ***
+Total pot $0.09 | Rake $0 | Jackpot $0 | Bingo $0
+Board [As 9s Qd Ts 5s]
+Seat 1: c21426f (button) showed [3c Ac 6s 3d] and lost with Pair of Aces
+Seat 2: c36f506e (small blind) folded before Flop
+Seat 3: 4393d94c (big blind) showed [4d Ad 4h 5d] and won ($0.09) with Pair of Aces and Pair of Fives
+Seat 4: 8b276e75 folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 30cd7ca9 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503443: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:14:58
+Table 'RushAndCash1433443' 6-max Seat #1 is the button
+Seat 1: 4910107b ($2 in chips)
+Seat 2: a93087c ($1.85 in chips)
+Seat 3: c0eb8400 ($2.07 in chips)
+Seat 4: e6066f3c ($2.09 in chips)
+Seat 5: 38fb0623 ($2.89 in chips)
+Seat 6: Hero ($2.07 in chips)
+a93087c: posts small blind $0.01
+c0eb8400: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 4910107b 
+Dealt to a93087c 
+Dealt to c0eb8400 
+Dealt to e6066f3c 
+Dealt to 38fb0623 
+Dealt to Hero [Ah 2s Th 5s]
+e6066f3c: folds
+38fb0623: folds
+Hero: folds
+4910107b: raises $0.05 to $0.07
+a93087c: folds
+c0eb8400: folds
+Uncalled bet ($0.05) returned to 4910107b
+*** SHOWDOWN ***
+4910107b collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 4910107b (button) collected ($0.05)
+Seat 2: a93087c (small blind) folded before Flop
+Seat 3: c0eb8400 (big blind) folded before Flop
+Seat 4: e6066f3c folded before Flop (didn't bet)
+Seat 5: 38fb0623 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503438: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:14:54
+Table 'RushAndCash1433438' 6-max Seat #1 is the button
+Seat 1: 29d64de8 ($2.32 in chips)
+Seat 2: 91015faa ($5.84 in chips)
+Seat 3: c36f506e ($2 in chips)
+Seat 4: 3ef81d42 ($4.25 in chips)
+Seat 5: eccf7f1f ($0.65 in chips)
+Seat 6: Hero ($2.07 in chips)
+91015faa: posts small blind $0.01
+c36f506e: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 29d64de8 
+Dealt to 91015faa 
+Dealt to c36f506e 
+Dealt to 3ef81d42 
+Dealt to eccf7f1f 
+Dealt to Hero [2s Td Qs 2c]
+3ef81d42: folds
+eccf7f1f: folds
+Hero: folds
+29d64de8: raises $0.05 to $0.07
+91015faa: folds
+c36f506e: folds
+Uncalled bet ($0.05) returned to 29d64de8
+*** SHOWDOWN ***
+29d64de8 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 29d64de8 (button) collected ($0.05)
+Seat 2: 91015faa (small blind) folded before Flop
+Seat 3: c36f506e (big blind) folded before Flop
+Seat 4: 3ef81d42 folded before Flop (didn't bet)
+Seat 5: eccf7f1f folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503433: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:14:51
+Table 'RushAndCash1433433' 6-max Seat #1 is the button
+Seat 1: e6066f3c ($2.09 in chips)
+Seat 2: Hero ($2.08 in chips)
+Seat 3: 7d9438ea ($2.4 in chips)
+Seat 4: 29d64de8 ($2.32 in chips)
+Seat 5: c36f506e ($2 in chips)
+Seat 6: c21426f ($3.76 in chips)
+Hero: posts small blind $0.01
+7d9438ea: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to e6066f3c 
+Dealt to Hero [9h Jc Qc 7h]
+Dealt to 7d9438ea 
+Dealt to 29d64de8 
+Dealt to c36f506e 
+Dealt to c21426f 
+29d64de8: folds
+c36f506e: folds
+c21426f: raises $0.05 to $0.07
+e6066f3c: folds
+Hero: folds
+7d9438ea: folds
+Uncalled bet ($0.05) returned to c21426f
+*** SHOWDOWN ***
+c21426f collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: e6066f3c (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 7d9438ea (big blind) folded before Flop
+Seat 4: 29d64de8 folded before Flop (didn't bet)
+Seat 5: c36f506e folded before Flop (didn't bet)
+Seat 6: c21426f collected ($0.05)
+
+
+Poker Hand #RC210503428: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:14:46
+Table 'RushAndCash1433428' 6-max Seat #1 is the button
+Seat 1: bbe0abca ($4.08 in chips)
+Seat 2: c21426f ($3.77 in chips)
+Seat 3: Hero ($2.1 in chips)
+Seat 4: c36f506e ($2 in chips)
+Seat 5: 7d9438ea ($2.4 in chips)
+Seat 6: 26d39fa6 ($2 in chips)
+c21426f: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to bbe0abca 
+Dealt to c21426f 
+Dealt to Hero [Js 7h 6d 7d]
+Dealt to c36f506e 
+Dealt to 7d9438ea 
+Dealt to 26d39fa6 
+c36f506e: folds
+7d9438ea: folds
+26d39fa6: folds
+bbe0abca: raises $0.03 to $0.05
+c21426f: folds
+Hero: folds
+Uncalled bet ($0.03) returned to bbe0abca
+*** SHOWDOWN ***
+bbe0abca collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: bbe0abca (button) collected ($0.05)
+Seat 2: c21426f (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: c36f506e folded before Flop (didn't bet)
+Seat 5: 7d9438ea folded before Flop (didn't bet)
+Seat 6: 26d39fa6 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503423: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:14:43
+Table 'RushAndCash1433423' 6-max Seat #1 is the button
+Seat 1: Hero ($2.1 in chips)
+Seat 2: bfdace1c ($2.06 in chips)
+Seat 3: 2ca35b75 ($2.93 in chips)
+Seat 4: c21426f ($3.77 in chips)
+Seat 5: c36f506e ($2 in chips)
+Seat 6: f31f8cb5 ($0.86 in chips)
+bfdace1c: posts small blind $0.01
+2ca35b75: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [4s 4h Ac 3h]
+Dealt to bfdace1c 
+Dealt to 2ca35b75 
+Dealt to c21426f 
+Dealt to c36f506e 
+Dealt to f31f8cb5 
+c21426f: folds
+c36f506e: folds
+f31f8cb5: folds
+Hero: folds
+bfdace1c: raises $0.04 to $0.06
+2ca35b75: folds
+Uncalled bet ($0.04) returned to bfdace1c
+*** SHOWDOWN ***
+bfdace1c collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: bfdace1c (small blind) collected ($0.04)
+Seat 3: 2ca35b75 (big blind) folded before Flop
+Seat 4: c21426f folded before Flop (didn't bet)
+Seat 5: c36f506e folded before Flop (didn't bet)
+Seat 6: f31f8cb5 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503419: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:14:39
+Table 'RushAndCash1433419' 6-max Seat #1 is the button
+Seat 1: 303fa53b ($1.17 in chips)
+Seat 2: 7b3b96c4 ($1.51 in chips)
+Seat 3: 4984a449 ($3.91 in chips)
+Seat 4: Hero ($2.1 in chips)
+Seat 5: 74602857 ($2.1 in chips)
+Seat 6: 2c856b26 ($1.61 in chips)
+7b3b96c4: posts small blind $0.01
+4984a449: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 303fa53b 
+Dealt to 7b3b96c4 
+Dealt to 4984a449 
+Dealt to Hero [8s Tc Kd 6h]
+Dealt to 74602857 
+Dealt to 2c856b26 
+Hero: folds
+74602857: folds
+2c856b26: raises $0.05 to $0.07
+303fa53b: calls $0.07
+7b3b96c4: folds
+4984a449: calls $0.05
+*** FLOP *** [Ah 4s 5s]
+4984a449: checks
+2c856b26: checks
+303fa53b: checks
+*** TURN *** [Ah 4s 5s] [5d]
+4984a449: checks
+2c856b26: checks
+303fa53b: checks
+*** RIVER *** [Ah 4s 5s 5d] [3s]
+4984a449: checks
+2c856b26: bets $0.08
+303fa53b: folds
+4984a449: folds
+Uncalled bet ($0.08) returned to 2c856b26
+*** SHOWDOWN ***
+2c856b26 collected $0.21 from pot
+*** SUMMARY ***
+Total pot $0.22 | Rake $0.01 | Jackpot $0 | Bingo $0
+Board [Ah 4s 5s 5d 3s]
+Seat 1: 303fa53b (button) folded on the River
+Seat 2: 7b3b96c4 (small blind) folded before Flop
+Seat 3: 4984a449 (big blind) folded on the River
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 74602857 folded before Flop (didn't bet)
+Seat 6: 2c856b26 won ($0.21)
+
+
+Poker Hand #RC210503415: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:14:36
+Table 'RushAndCash1433415' 6-max Seat #1 is the button
+Seat 1: a71e7157 ($2.35 in chips)
+Seat 2: f31f8cb5 ($0.87 in chips)
+Seat 3: e6066f3c ($2.08 in chips)
+Seat 4: 881a6eeb ($1.14 in chips)
+Seat 5: fb4d9afa ($2.23 in chips)
+Seat 6: Hero ($2.1 in chips)
+f31f8cb5: posts small blind $0.01
+e6066f3c: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to a71e7157 
+Dealt to f31f8cb5 
+Dealt to e6066f3c 
+Dealt to 881a6eeb 
+Dealt to fb4d9afa 
+Dealt to Hero [3c 9h Tc 7s]
+881a6eeb: folds
+fb4d9afa: folds
+Hero: folds
+a71e7157: folds
+f31f8cb5: folds
+Uncalled bet ($0.01) returned to e6066f3c
+*** SHOWDOWN ***
+e6066f3c collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: a71e7157 (button) folded before Flop (didn't bet)
+Seat 2: f31f8cb5 (small blind) folded before Flop
+Seat 3: e6066f3c (big blind) collected ($0.02)
+Seat 4: 881a6eeb folded before Flop (didn't bet)
+Seat 5: fb4d9afa folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503408: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:14:30
+Table 'RushAndCash1433408' 6-max Seat #1 is the button
+Seat 1: e5b1eabe ($2 in chips)
+Seat 2: 3e16f49b ($2.01 in chips)
+Seat 3: 30cd7ca9 ($3.23 in chips)
+Seat 4: f9ec9c8e ($1.81 in chips)
+Seat 5: Hero ($2.1 in chips)
+Seat 6: c2ad3a59 ($2.37 in chips)
+3e16f49b: posts small blind $0.01
+30cd7ca9: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to e5b1eabe 
+Dealt to 3e16f49b 
+Dealt to 30cd7ca9 
+Dealt to f9ec9c8e 
+Dealt to Hero [As 6d 4d 8s]
+Dealt to c2ad3a59 
+f9ec9c8e: folds
+Hero: folds
+c2ad3a59: folds
+e5b1eabe: folds
+3e16f49b: folds
+Uncalled bet ($0.01) returned to 30cd7ca9
+*** SHOWDOWN ***
+30cd7ca9 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: e5b1eabe (button) folded before Flop (didn't bet)
+Seat 2: 3e16f49b (small blind) folded before Flop
+Seat 3: 30cd7ca9 (big blind) collected ($0.02)
+Seat 4: f9ec9c8e folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: c2ad3a59 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503404: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:14:27
+Table 'RushAndCash1433404' 6-max Seat #1 is the button
+Seat 1: 3c6a4ada ($1.52 in chips)
+Seat 2: ad7351b9 ($1.34 in chips)
+Seat 3: 42c9cbb8 ($1.28 in chips)
+Seat 4: 7f43af84 ($5.43 in chips)
+Seat 5: 7c5652dd ($2.33 in chips)
+Seat 6: Hero ($2.1 in chips)
+ad7351b9: posts small blind $0.01
+42c9cbb8: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 3c6a4ada 
+Dealt to ad7351b9 
+Dealt to 42c9cbb8 
+Dealt to 7f43af84 
+Dealt to 7c5652dd 
+Dealt to Hero [Kd 4d 5c 6c]
+7f43af84: folds
+7c5652dd: folds
+Hero: folds
+3c6a4ada: raises $0.02 to $0.04
+ad7351b9: folds
+42c9cbb8: calls $0.02
+*** FLOP *** [Kc 7h 2h]
+42c9cbb8: checks
+3c6a4ada: checks
+*** TURN *** [Kc 7h 2h] [9s]
+42c9cbb8: bets $0.05
+3c6a4ada: folds
+Uncalled bet ($0.05) returned to 42c9cbb8
+*** SHOWDOWN ***
+42c9cbb8 collected $0.09 from pot
+*** SUMMARY ***
+Total pot $0.09 | Rake $0 | Jackpot $0 | Bingo $0
+Board [Kc 7h 2h 9s]
+Seat 1: 3c6a4ada (button) folded on the Turn
+Seat 2: ad7351b9 (small blind) folded before Flop
+Seat 3: 42c9cbb8 (big blind) won ($0.09)
+Seat 4: 7f43af84 folded before Flop (didn't bet)
+Seat 5: 7c5652dd folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503400: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:14:23
+Table 'RushAndCash1433400' 6-max Seat #1 is the button
+Seat 1: 86c1e6d9 ($2.05 in chips)
+Seat 2: Hero ($2.11 in chips)
+Seat 3: 38fb0623 ($2.92 in chips)
+Seat 4: d9ec850a ($1.97 in chips)
+Seat 5: 8b276e75 ($3.92 in chips)
+Seat 6: 7c5652dd ($2.33 in chips)
+Hero: posts small blind $0.01
+38fb0623: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 86c1e6d9 
+Dealt to Hero [4d Jc Ts 7h]
+Dealt to 38fb0623 
+Dealt to d9ec850a 
+Dealt to 8b276e75 
+Dealt to 7c5652dd 
+d9ec850a: folds
+8b276e75: folds
+7c5652dd: folds
+86c1e6d9: raises $0.03 to $0.05
+Hero: folds
+38fb0623: folds
+Uncalled bet ($0.03) returned to 86c1e6d9
+*** SHOWDOWN ***
+86c1e6d9 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 86c1e6d9 (button) collected ($0.05)
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 38fb0623 (big blind) folded before Flop
+Seat 4: d9ec850a folded before Flop (didn't bet)
+Seat 5: 8b276e75 folded before Flop (didn't bet)
+Seat 6: 7c5652dd folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503337: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:13:32
+Table 'RushAndCash1433337' 6-max Seat #1 is the button
+Seat 1: d01941c1 ($2.56 in chips)
+Seat 2: 397b3082 ($2.19 in chips)
+Seat 3: Hero ($2.18 in chips)
+Seat 4: a78ac565 ($2.2 in chips)
+Seat 5: 87f80488 ($1.3 in chips)
+Seat 6: 77e4fc39 ($2.02 in chips)
+397b3082: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to d01941c1 
+Dealt to 397b3082 
+Dealt to Hero [Jd Tc Ac Qs]
+Dealt to a78ac565 
+Dealt to 87f80488 
+Dealt to 77e4fc39 
+a78ac565: folds
+87f80488: folds
+77e4fc39: raises $0.05 to $0.07
+d01941c1: folds
+397b3082: folds
+Hero: calls $0.05
+*** FLOP *** [3d 9h 5s]
+Hero: checks
+77e4fc39: checks
+*** TURN *** [3d 9h 5s] [8c]
+Hero: checks
+77e4fc39: checks
+*** RIVER *** [3d 9h 5s 8c] [2d]
+Hero: checks
+77e4fc39: checks
+Hero: shows [Jd Tc Ac Qs] (Ace-High)
+77e4fc39: shows [Td Th Qh Js] (Pair of Tens)
+*** SHOWDOWN ***
+77e4fc39 collected $0.15 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0 | Jackpot $0 | Bingo $0
+Board [3d 9h 5s 8c 2d]
+Seat 1: d01941c1 (button) folded before Flop (didn't bet)
+Seat 2: 397b3082 (small blind) folded before Flop
+Seat 3: Hero (big blind) showed [Jd Tc Ac Qs] and lost with Ace-High
+Seat 4: a78ac565 folded before Flop (didn't bet)
+Seat 5: 87f80488 folded before Flop (didn't bet)
+Seat 6: 77e4fc39 showed [Td Th Qh Js] and won ($0.15) with Pair of Tens
+
+
+Poker Hand #RC210503329: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:13:27
+Table 'RushAndCash1433329' 6-max Seat #1 is the button
+Seat 1: Hero ($2.18 in chips)
+Seat 2: d9ec850a ($2.02 in chips)
+Seat 3: e1b61310 ($0.04 in chips)
+Seat 4: 29882135 ($0.7 in chips)
+Seat 5: 6bebb13 ($5.12 in chips)
+Seat 6: 7a9d9036 ($0.93 in chips)
+d9ec850a: posts small blind $0.01
+e1b61310: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [7s 7h Ts Jh]
+Dealt to d9ec850a 
+Dealt to e1b61310 
+Dealt to 29882135 
+Dealt to 6bebb13 
+Dealt to 7a9d9036 
+29882135: raises $0.05 to $0.07
+6bebb13: calls $0.07
+7a9d9036: raises $0.24 to $0.31
+Hero: folds
+d9ec850a: folds
+e1b61310: folds
+29882135: calls $0.24
+6bebb13: calls $0.24
+*** FLOP *** [Kh 9s 2c]
+29882135: checks
+6bebb13: checks
+7a9d9036: bets $0.62 and is all-in
+29882135: folds
+6bebb13: folds
+Uncalled bet ($0.62) returned to 7a9d9036
+*** SHOWDOWN ***
+7a9d9036 collected $0.88 from pot
+*** SUMMARY ***
+Total pot $0.96 | Rake $0.05 | Jackpot $0.03 | Bingo $0
+Board [Kh 9s 2c]
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: d9ec850a (small blind) folded before Flop
+Seat 3: e1b61310 (big blind) folded before Flop
+Seat 4: 29882135 folded on the Flop
+Seat 5: 6bebb13 folded on the Flop
+Seat 6: 7a9d9036 won ($0.88)
+
+
+Poker Hand #RC210503323: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:13:23
+Table 'RushAndCash1433323' 6-max Seat #1 is the button
+Seat 1: e1b61310 ($0.04 in chips)
+Seat 2: fb4d9afa ($2.32 in chips)
+Seat 3: 1644fb50 ($3.24 in chips)
+Seat 4: 26d39fa6 ($2 in chips)
+Seat 5: d01941c1 ($2.56 in chips)
+Seat 6: Hero ($2.18 in chips)
+fb4d9afa: posts small blind $0.01
+1644fb50: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to e1b61310 
+Dealt to fb4d9afa 
+Dealt to 1644fb50 
+Dealt to 26d39fa6 
+Dealt to d01941c1 
+Dealt to Hero [8h Js Qh 7d]
+26d39fa6: folds
+d01941c1: folds
+Hero: folds
+e1b61310: folds
+fb4d9afa: folds
+Uncalled bet ($0.01) returned to 1644fb50
+*** SHOWDOWN ***
+1644fb50 collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: e1b61310 (button) folded before Flop (didn't bet)
+Seat 2: fb4d9afa (small blind) folded before Flop
+Seat 3: 1644fb50 (big blind) collected ($0.02)
+Seat 4: 26d39fa6 folded before Flop (didn't bet)
+Seat 5: d01941c1 folded before Flop (didn't bet)
+Seat 6: Hero folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503318: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:13:20
+Table 'RushAndCash1433318' 6-max Seat #1 is the button
+Seat 1: 42c9cbb8 ($1.32 in chips)
+Seat 2: 925833f1 ($2.01 in chips)
+Seat 3: 648f09ab ($2.32 in chips)
+Seat 4: Hero ($2.18 in chips)
+Seat 5: 1d37f0a ($4.19 in chips)
+Seat 6: fdc1ef9 ($0.51 in chips)
+925833f1: posts small blind $0.01
+648f09ab: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 42c9cbb8 
+Dealt to 925833f1 
+Dealt to 648f09ab 
+Dealt to Hero [9d Qd Jd Ks]
+Dealt to 1d37f0a 
+Dealt to fdc1ef9 
+Hero: folds
+1d37f0a: folds
+fdc1ef9: folds
+42c9cbb8: folds
+925833f1: folds
+Uncalled bet ($0.01) returned to 648f09ab
+*** SHOWDOWN ***
+648f09ab collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 42c9cbb8 (button) folded before Flop (didn't bet)
+Seat 2: 925833f1 (small blind) folded before Flop
+Seat 3: 648f09ab (big blind) collected ($0.02)
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 1d37f0a folded before Flop (didn't bet)
+Seat 6: fdc1ef9 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503312: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:13:15
+Table 'RushAndCash1433312' 6-max Seat #1 is the button
+Seat 1: 49ff2dd4 ($2.23 in chips)
+Seat 2: 3e1720ed ($4.71 in chips)
+Seat 3: 3c6a4ada ($1.55 in chips)
+Seat 4: Hero ($2.18 in chips)
+Seat 5: e1b61310 ($0.04 in chips)
+Seat 6: fb4d9afa ($2.32 in chips)
+3e1720ed: posts small blind $0.01
+3c6a4ada: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 49ff2dd4 
+Dealt to 3e1720ed 
+Dealt to 3c6a4ada 
+Dealt to Hero [7d Kc 2s 2c]
+Dealt to e1b61310 
+Dealt to fb4d9afa 
+Hero: folds
+e1b61310: folds
+fb4d9afa: folds
+49ff2dd4: raises $0.04 to $0.06
+3e1720ed: folds
+3c6a4ada: folds
+Uncalled bet ($0.04) returned to 49ff2dd4
+*** SHOWDOWN ***
+49ff2dd4 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 49ff2dd4 (button) collected ($0.05)
+Seat 2: 3e1720ed (small blind) folded before Flop
+Seat 3: 3c6a4ada (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: e1b61310 folded before Flop (didn't bet)
+Seat 6: fb4d9afa folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503263: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:12:43
+Table 'RushAndCash1433263' 6-max Seat #1 is the button
+Seat 1: dcdbcf01 ($2 in chips)
+Seat 2: Hero ($2.13 in chips)
+Seat 3: 8c4aaa6c ($2 in chips)
+Seat 4: 831114ff ($2 in chips)
+Seat 5: 91015faa ($5.8 in chips)
+Seat 6: 9fb7eaa9 ($2 in chips)
+Hero: posts small blind $0.01
+8c4aaa6c: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to dcdbcf01 
+Dealt to Hero [7c As 4d Js]
+Dealt to 8c4aaa6c 
+Dealt to 831114ff 
+Dealt to 91015faa 
+Dealt to 9fb7eaa9 
+831114ff: folds
+91015faa: folds
+9fb7eaa9: folds
+dcdbcf01: folds
+Hero: raises $0.02 to $0.04
+8c4aaa6c: folds
+Uncalled bet ($0.02) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: dcdbcf01 (button) folded before Flop (didn't bet)
+Seat 2: Hero (small blind) collected ($0.04)
+Seat 3: 8c4aaa6c (big blind) folded before Flop
+Seat 4: 831114ff folded before Flop (didn't bet)
+Seat 5: 91015faa folded before Flop (didn't bet)
+Seat 6: 9fb7eaa9 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503257: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:12:39
+Table 'RushAndCash1433257' 6-max Seat #1 is the button
+Seat 1: 640cdd43 ($1.75 in chips)
+Seat 2: e1b61310 ($0.07 in chips)
+Seat 3: Hero ($2.15 in chips)
+Seat 4: 9c96da7c ($4.85 in chips)
+Seat 5: ecd34f54 ($1.46 in chips)
+Seat 6: 8c4aaa6c ($2 in chips)
+e1b61310: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 640cdd43 
+Dealt to e1b61310 
+Dealt to Hero [Jd 5d 3c Jc]
+Dealt to 9c96da7c 
+Dealt to ecd34f54 
+Dealt to 8c4aaa6c 
+9c96da7c: folds
+ecd34f54: folds
+8c4aaa6c: folds
+640cdd43: folds
+e1b61310: folds
+Uncalled bet ($0.01) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 640cdd43 (button) folded before Flop (didn't bet)
+Seat 2: e1b61310 (small blind) folded before Flop
+Seat 3: Hero (big blind) collected ($0.02)
+Seat 4: 9c96da7c folded before Flop (didn't bet)
+Seat 5: ecd34f54 folded before Flop (didn't bet)
+Seat 6: 8c4aaa6c folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503250: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:12:34
+Table 'RushAndCash1433250' 6-max Seat #1 is the button
+Seat 1: Hero ($2.15 in chips)
+Seat 2: 94744937 ($1.68 in chips)
+Seat 3: 77e4fc39 ($2.08 in chips)
+Seat 4: 100ced53 ($1.67 in chips)
+Seat 5: 9c6403ee ($2.06 in chips)
+Seat 6: 8c4aaa6c ($2 in chips)
+94744937: posts small blind $0.01
+77e4fc39: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [2s 3h 8h 6h]
+Dealt to 94744937 
+Dealt to 77e4fc39 
+Dealt to 100ced53 
+Dealt to 9c6403ee 
+Dealt to 8c4aaa6c 
+100ced53: calls $0.02
+9c6403ee: calls $0.02
+8c4aaa6c: folds
+Hero: folds
+94744937: raises $0.04 to $0.06
+77e4fc39: folds
+100ced53: calls $0.04
+9c6403ee: calls $0.04
+*** FLOP *** [9d Qc Jc]
+94744937: bets $0.1
+100ced53: calls $0.1
+9c6403ee: raises $0.38 to $0.48
+94744937: folds
+100ced53: calls $0.38
+*** TURN *** [9d Qc Jc] [2h]
+100ced53: checks
+9c6403ee: bets $1.26
+100ced53: folds
+Uncalled bet ($1.26) returned to 9c6403ee
+94744937: shows [Ad 3s Jh Qd] (Pair of Queens and Pair of Jacks)
+*** SHOWDOWN ***
+9c6403ee collected $1.16 from pot
+*** SUMMARY ***
+Total pot $1.26 | Rake $0.07 | Jackpot $0.03 | Bingo $0
+Board [9d Qc Jc 2h]
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 94744937 (small blind) folded on the Flop
+Seat 3: 77e4fc39 (big blind) folded before Flop
+Seat 4: 100ced53 folded on the Turn
+Seat 5: 9c6403ee won ($1.16)
+Seat 6: 8c4aaa6c folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503246: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:12:31
+Table 'RushAndCash1433246' 6-max Seat #1 is the button
+Seat 1: 9c6403ee ($2.06 in chips)
+Seat 2: c21426f ($3.77 in chips)
+Seat 3: 606619dc ($2.74 in chips)
+Seat 4: bfdace1c ($2 in chips)
+Seat 5: Hero ($2.15 in chips)
+Seat 6: eeb313c ($1.47 in chips)
+c21426f: posts small blind $0.01
+606619dc: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 9c6403ee 
+Dealt to c21426f 
+Dealt to 606619dc 
+Dealt to bfdace1c 
+Dealt to Hero [Ad Qc 3c 2s]
+Dealt to eeb313c 
+bfdace1c: folds
+Hero: folds
+eeb313c: folds
+9c6403ee: folds
+c21426f: raises $0.04 to $0.06
+606619dc: folds
+Uncalled bet ($0.04) returned to c21426f
+*** SHOWDOWN ***
+c21426f collected $0.04 from pot
+*** SUMMARY ***
+Total pot $0.04 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 9c6403ee (button) folded before Flop (didn't bet)
+Seat 2: c21426f (small blind) collected ($0.04)
+Seat 3: 606619dc (big blind) folded before Flop
+Seat 4: bfdace1c folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: eeb313c folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503240: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:12:27
+Table 'RushAndCash1433240' 6-max Seat #1 is the button
+Seat 1: eccf7f1f ($1.31 in chips)
+Seat 2: eeb313c ($1.48 in chips)
+Seat 3: 2ca35b75 ($3 in chips)
+Seat 4: beafbd4f ($3.95 in chips)
+Seat 5: Hero ($2.12 in chips)
+Seat 6: 29ca7da3 ($1.83 in chips)
+eeb313c: posts small blind $0.01
+2ca35b75: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to eccf7f1f 
+Dealt to eeb313c 
+Dealt to 2ca35b75 
+Dealt to beafbd4f 
+Dealt to Hero [Ac 2c Qs 9c]
+Dealt to 29ca7da3 
+beafbd4f: folds
+Hero: folds
+29ca7da3: raises $0.02 to $0.04
+eccf7f1f: folds
+eeb313c: folds
+2ca35b75: calls $0.02
+*** FLOP *** [2d Qh Qc]
+2ca35b75: checks
+29ca7da3: checks
+*** TURN *** [2d Qh Qc] [8c]
+2ca35b75: bets $0.05
+29ca7da3: calls $0.05
+*** RIVER *** [2d Qh Qc 8c] [9d]
+2ca35b75: bets $0.1
+29ca7da3: calls $0.1
+2ca35b75: shows [Qd 6c Kd 4c] (Three Queens)
+29ca7da3: shows [Td Jc Kc 6h] (Queens-High Straight)
+*** SHOWDOWN ***
+29ca7da3 collected $0.37 from pot
+*** SUMMARY ***
+Total pot $0.39 | Rake $0.02 | Jackpot $0 | Bingo $0
+Board [2d Qh Qc 8c 9d]
+Seat 1: eccf7f1f (button) folded before Flop (didn't bet)
+Seat 2: eeb313c (small blind) folded before Flop
+Seat 3: 2ca35b75 (big blind) showed [Qd 6c Kd 4c] and lost with Three Queens
+Seat 4: beafbd4f folded before Flop (didn't bet)
+Seat 5: Hero folded before Flop (didn't bet)
+Seat 6: 29ca7da3 showed [Td Jc Kc 6h] and won ($0.37) with Queens-High Straight
+
+
+Poker Hand #RC210503233: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:12:22
+Table 'RushAndCash1433233' 6-max Seat #1 is the button
+Seat 1: e1b61310 ($0.07 in chips)
+Seat 2: 7d9438ea ($2 in chips)
+Seat 3: 30cd7ca9 ($3.29 in chips)
+Seat 4: Hero ($2.12 in chips)
+Seat 5: 4468a802 ($2.22 in chips)
+Seat 6: c36f506e ($2 in chips)
+7d9438ea: posts small blind $0.01
+30cd7ca9: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to e1b61310 
+Dealt to 7d9438ea 
+Dealt to 30cd7ca9 
+Dealt to Hero [5d Qd Qh Th]
+Dealt to 4468a802 
+Dealt to c36f506e 
+Hero: folds
+4468a802: raises $0.05 to $0.07
+c36f506e: folds
+e1b61310: folds
+7d9438ea: folds
+30cd7ca9: folds
+Uncalled bet ($0.05) returned to 4468a802
+*** SHOWDOWN ***
+4468a802 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: e1b61310 (button) folded before Flop (didn't bet)
+Seat 2: 7d9438ea (small blind) folded before Flop
+Seat 3: 30cd7ca9 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: 4468a802 collected ($0.05)
+Seat 6: c36f506e folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503228: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:12:17
+Table 'RushAndCash1433228' 6-max Seat #1 is the button
+Seat 1: a61d1ee ($4.73 in chips)
+Seat 2: Hero ($2.13 in chips)
+Seat 3: a71fa521 ($2.33 in chips)
+Seat 4: dcdbcf01 ($2.03 in chips)
+Seat 5: e1b61310 ($0.07 in chips)
+Seat 6: e0747927 ($3.37 in chips)
+Hero: posts small blind $0.01
+a71fa521: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to a61d1ee 
+Dealt to Hero [2s Kd 7d 9d]
+Dealt to a71fa521 
+Dealt to dcdbcf01 
+Dealt to e1b61310 
+Dealt to e0747927 
+dcdbcf01: folds
+e1b61310: folds
+e0747927: folds
+a61d1ee: raises $0.05 to $0.07
+Hero: folds
+a71fa521: raises $0.15 to $0.22
+a61d1ee: calls $0.15
+*** FLOP *** [3s 7s 3h]
+a71fa521: bets $0.24
+a61d1ee: folds
+Uncalled bet ($0.24) returned to a71fa521
+*** SHOWDOWN ***
+a71fa521 collected $0.43 from pot
+*** SUMMARY ***
+Total pot $0.45 | Rake $0.02 | Jackpot $0 | Bingo $0
+Board [3s 7s 3h]
+Seat 1: a61d1ee (button) folded on the Flop
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: a71fa521 (big blind) won ($0.43)
+Seat 4: dcdbcf01 folded before Flop (didn't bet)
+Seat 5: e1b61310 folded before Flop (didn't bet)
+Seat 6: e0747927 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503224: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:12:12
+Table 'RushAndCash1433224' 6-max Seat #1 is the button
+Seat 1: 8b276e75 ($2 in chips)
+Seat 2: beafbd4f ($3.96 in chips)
+Seat 3: Hero ($2.15 in chips)
+Seat 4: a71e7157 ($2.38 in chips)
+Seat 5: 2ca35b75 ($3 in chips)
+Seat 6: dcdbcf01 ($2.03 in chips)
+beafbd4f: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 8b276e75 
+Dealt to beafbd4f 
+Dealt to Hero [As 5c Kh 3c]
+Dealt to a71e7157 
+Dealt to 2ca35b75 
+Dealt to dcdbcf01 
+a71e7157: folds
+2ca35b75: folds
+dcdbcf01: folds
+8b276e75: folds
+beafbd4f: folds
+Uncalled bet ($0.01) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 8b276e75 (button) folded before Flop (didn't bet)
+Seat 2: beafbd4f (small blind) folded before Flop
+Seat 3: Hero (big blind) collected ($0.02)
+Seat 4: a71e7157 folded before Flop (didn't bet)
+Seat 5: 2ca35b75 folded before Flop (didn't bet)
+Seat 6: dcdbcf01 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503220: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:12:07
+Table 'RushAndCash1433220' 6-max Seat #1 is the button
+Seat 1: Hero ($2.15 in chips)
+Seat 2: 91015faa ($5.72 in chips)
+Seat 3: e542e75a ($3.81 in chips)
+Seat 4: a71e7157 ($2.38 in chips)
+Seat 5: 606619dc ($2.75 in chips)
+Seat 6: 203e6d1e ($2 in chips)
+91015faa: posts small blind $0.01
+e542e75a: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [9c 5h 9s 4s]
+Dealt to 91015faa 
+Dealt to e542e75a 
+Dealt to a71e7157 
+Dealt to 606619dc 
+Dealt to 203e6d1e 
+a71e7157: folds
+606619dc: folds
+203e6d1e: raises $0.05 to $0.07
+Hero: folds
+91015faa: calls $0.06
+e542e75a: folds
+*** FLOP *** [Ks Jh Ac]
+91015faa: checks
+203e6d1e: checks
+*** TURN *** [Ks Jh Ac] [Js]
+91015faa: bets $0.08
+203e6d1e: folds
+Uncalled bet ($0.08) returned to 91015faa
+*** SHOWDOWN ***
+91015faa collected $0.15 from pot
+*** SUMMARY ***
+Total pot $0.16 | Rake $0.01 | Jackpot $0 | Bingo $0
+Board [Ks Jh Ac Js]
+Seat 1: Hero (button) folded before Flop (didn't bet)
+Seat 2: 91015faa (small blind) won ($0.15)
+Seat 3: e542e75a (big blind) folded before Flop
+Seat 4: a71e7157 folded before Flop (didn't bet)
+Seat 5: 606619dc folded before Flop (didn't bet)
+Seat 6: 203e6d1e folded on the Turn
+
+
+Poker Hand #RC210503216: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:12:03
+Table 'RushAndCash1433216' 6-max Seat #1 is the button
+Seat 1: 74602857 ($1.62 in chips)
+Seat 2: 96b12386 ($0.07 in chips)
+Seat 3: 29ca7da3 ($1.85 in chips)
+Seat 4: Hero ($2.15 in chips)
+Seat 5: a71e7157 ($2.38 in chips)
+Seat 6: 606619dc ($2.75 in chips)
+96b12386: posts small blind $0.01
+29ca7da3: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 74602857 
+Dealt to 96b12386 
+Dealt to 29ca7da3 
+Dealt to Hero [7c 5d 8s Kd]
+Dealt to a71e7157 
+Dealt to 606619dc 
+Hero: folds
+a71e7157: folds
+606619dc: folds
+74602857: calls $0.02
+96b12386: folds
+29ca7da3: checks
+*** FLOP *** [4s Js 8h]
+29ca7da3: checks
+74602857: checks
+*** TURN *** [4s Js 8h] [As]
+29ca7da3: checks
+74602857: checks
+*** RIVER *** [4s Js 8h As] [Qd]
+29ca7da3: checks
+74602857: checks
+29ca7da3: shows [Td 9d Qh 7h] (Queens-High Straight)
+74602857: shows [Kc 5h 3h Ad] (Pair of Aces)
+*** SHOWDOWN ***
+29ca7da3 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Board [4s Js 8h As Qd]
+Seat 1: 74602857 (button) showed [Kc 5h 3h Ad] and lost with Pair of Aces
+Seat 2: 96b12386 (small blind) folded before Flop
+Seat 3: 29ca7da3 (big blind) showed [Td 9d Qh 7h] and won ($0.05) with Queens-High Straight
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: a71e7157 folded before Flop (didn't bet)
+Seat 6: 606619dc folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503208: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:11:57
+Table 'RushAndCash1433208' 6-max Seat #1 is the button
+Seat 1: 7a9d9036 ($1.54 in chips)
+Seat 2: ad7351b9 ($1.37 in chips)
+Seat 3: 7d66e178 ($2.47 in chips)
+Seat 4: Hero ($2.15 in chips)
+Seat 5: bfdace1c ($2.02 in chips)
+Seat 6: 91015faa ($5.72 in chips)
+ad7351b9: posts small blind $0.01
+7d66e178: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 7a9d9036 
+Dealt to ad7351b9 
+Dealt to 7d66e178 
+Dealt to Hero [8s As Ah 2d]
+Dealt to bfdace1c 
+Dealt to 91015faa 
+Hero: folds
+bfdace1c: raises $0.05 to $0.07
+91015faa: folds
+7a9d9036: folds
+ad7351b9: calls $0.06
+7d66e178: folds
+*** FLOP *** [4c 2s Kc]
+ad7351b9: checks
+bfdace1c: checks
+*** TURN *** [4c 2s Kc] [7c]
+ad7351b9: bets $0.09
+bfdace1c: folds
+Uncalled bet ($0.09) returned to ad7351b9
+*** SHOWDOWN ***
+ad7351b9 collected $0.16 from pot
+*** SUMMARY ***
+Total pot $0.16 | Rake $0 | Jackpot $0 | Bingo $0
+Board [4c 2s Kc 7c]
+Seat 1: 7a9d9036 (button) folded before Flop (didn't bet)
+Seat 2: ad7351b9 (small blind) won ($0.16)
+Seat 3: 7d66e178 (big blind) folded before Flop
+Seat 4: Hero folded before Flop (didn't bet)
+Seat 5: bfdace1c folded on the Turn
+Seat 6: 91015faa folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503143: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:11:10
+Table 'RushAndCash1433143' 6-max Seat #1 is the button
+Seat 1: e6066f3c ($2 in chips)
+Seat 2: 78bf42aa ($0.05 in chips)
+Seat 3: beafbd4f ($3.88 in chips)
+Seat 4: d01941c1 ($2.68 in chips)
+Seat 5: Hero ($2.22 in chips)
+Seat 6: c2ad3a59 ($2.35 in chips)
+78bf42aa: posts small blind $0.01
+beafbd4f: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to e6066f3c 
+Dealt to 78bf42aa 
+Dealt to beafbd4f 
+Dealt to d01941c1 
+Dealt to Hero [4s Jc Qs Ad]
+Dealt to c2ad3a59 
+d01941c1: folds
+Hero: raises $0.02 to $0.04
+c2ad3a59: folds
+e6066f3c: folds
+78bf42aa: folds
+beafbd4f: calls $0.02
+*** FLOP *** [8c 7c 2d]
+beafbd4f: checks
+Hero: checks
+*** TURN *** [8c 7c 2d] [Ac]
+beafbd4f: checks
+Hero: checks
+*** RIVER *** [8c 7c 2d Ac] [9h]
+beafbd4f: bets $0.03
+Hero: calls $0.03
+beafbd4f: shows [Js Th Kh 2c] (Jacks-High Straight)
+Hero: shows [4s Jc Qs Ad] (Pair of Aces)
+*** SHOWDOWN ***
+beafbd4f collected $0.15 from pot
+*** SUMMARY ***
+Total pot $0.15 | Rake $0 | Jackpot $0 | Bingo $0
+Board [8c 7c 2d Ac 9h]
+Seat 1: e6066f3c (button) folded before Flop (didn't bet)
+Seat 2: 78bf42aa (small blind) folded before Flop
+Seat 3: beafbd4f (big blind) showed [Js Th Kh 2c] and won ($0.15) with Jacks-High Straight
+Seat 4: d01941c1 folded before Flop (didn't bet)
+Seat 5: Hero showed [4s Jc Qs Ad] and lost with Pair of Aces
+Seat 6: c2ad3a59 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503138: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:11:06
+Table 'RushAndCash1433138' 6-max Seat #1 is the button
+Seat 1: 347a0003 ($1.81 in chips)
+Seat 2: Hero ($2.23 in chips)
+Seat 3: 29882135 ($1.77 in chips)
+Seat 4: 8bff2aae ($2.19 in chips)
+Seat 5: d01941c1 ($2.68 in chips)
+Seat 6: 397b3082 ($2.25 in chips)
+Hero: posts small blind $0.01
+29882135: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 347a0003 
+Dealt to Hero [9c 2h Qs Ad]
+Dealt to 29882135 
+Dealt to 8bff2aae 
+Dealt to d01941c1 
+Dealt to 397b3082 
+8bff2aae: folds
+d01941c1: folds
+397b3082: folds
+347a0003: raises $0.05 to $0.07
+Hero: folds
+29882135: raises $0.15 to $0.22
+347a0003: calls $0.15
+*** FLOP *** [3d Qc 6d]
+29882135: bets $0.34
+347a0003: calls $0.34
+*** TURN *** [3d Qc 6d] [4d]
+29882135: checks
+347a0003: bets $0.29
+29882135: raises $0.92 to $1.21 and is all-in
+347a0003: calls $0.92
+29882135: shows [Kc Qd 5c Ac] (Pair of Queens)
+347a0003: shows [8h 7d Kd 6h] (King High Flush)
+*** RIVER *** [3d Qc 6d 4d] [Jh]
+*** SHOWDOWN ***
+347a0003 collected $3.46 from pot
+*** SUMMARY ***
+Total pot $3.55 | Rake $0.06 | Jackpot $0.03 | Bingo $0
+Board [3d Qc 6d 4d Jh]
+Seat 1: 347a0003 (button) showed [8h 7d Kd 6h] and won ($3.46) with King High Flush
+Seat 2: Hero (small blind) folded before Flop
+Seat 3: 29882135 (big blind) showed [Kc Qd 5c Ac] and lost with Pair of Queens
+Seat 4: 8bff2aae folded before Flop (didn't bet)
+Seat 5: d01941c1 folded before Flop (didn't bet)
+Seat 6: 397b3082 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503059: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:10:05
+Table 'RushAndCash1433059' 6-max Seat #1 is the button
+Seat 1: Hero ($1.98 in chips)
+Seat 2: c2ad3a59 ($2.07 in chips)
+Seat 3: 7b3b96c4 ($2.26 in chips)
+Seat 4: 29882135 ($1.92 in chips)
+Seat 5: 82769a73 ($1.85 in chips)
+Seat 6: 8eebac18 ($4.02 in chips)
+c2ad3a59: posts small blind $0.01
+7b3b96c4: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to Hero [8d Kc Ks 7d]
+Dealt to c2ad3a59 
+Dealt to 7b3b96c4 
+Dealt to 29882135 
+Dealt to 82769a73 
+Dealt to 8eebac18 
+29882135: raises $0.05 to $0.07
+82769a73: folds
+8eebac18: folds
+Hero: calls $0.07
+c2ad3a59: folds
+7b3b96c4: calls $0.05
+*** FLOP *** [3d 5d Jc]
+7b3b96c4: checks
+29882135: checks
+Hero: bets $0.08
+7b3b96c4: folds
+29882135: calls $0.08
+*** TURN *** [3d 5d Jc] [As]
+29882135: checks
+Hero: checks
+*** RIVER *** [3d 5d Jc As] [9d]
+29882135: checks
+Hero: bets $0.13
+29882135: folds
+Uncalled bet ($0.13) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.37 from pot
+*** SUMMARY ***
+Total pot $0.38 | Rake $0.01 | Jackpot $0 | Bingo $0
+Board [3d 5d Jc As 9d]
+Seat 1: Hero (button) won ($0.37)
+Seat 2: c2ad3a59 (small blind) folded before Flop
+Seat 3: 7b3b96c4 (big blind) folded on the Flop
+Seat 4: 29882135 folded on the River
+Seat 5: 82769a73 folded before Flop (didn't bet)
+Seat 6: 8eebac18 folded before Flop (didn't bet)
+
+
+Poker Hand #RC210503053: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/17 12:10:00
+Table 'RushAndCash1433053' 6-max Seat #1 is the button
+Seat 1: 9c6403ee ($1.9 in chips)
+Seat 2: 4910107b ($2.12 in chips)
+Seat 3: Hero ($2 in chips)
+Seat 4: a61d1ee ($4.79 in chips)
+Seat 5: 82769a73 ($1.85 in chips)
+Seat 6: 46c763e2 ($4.24 in chips)
+4910107b: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to 9c6403ee 
+Dealt to 4910107b 
+Dealt to Hero [7s 3d 7c Jd]
+Dealt to a61d1ee 
+Dealt to 82769a73 
+Dealt to 46c763e2 
+a61d1ee: folds
+82769a73: folds
+46c763e2: folds
+9c6403ee: folds
+4910107b: folds
+Uncalled bet ($0.01) returned to Hero
+*** SHOWDOWN ***
+Hero collected $0.02 from pot
+*** SUMMARY ***
+Total pot $0.02 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: 9c6403ee (button) folded before Flop (didn't bet)
+Seat 2: 4910107b (small blind) folded before Flop
+Seat 3: Hero (big blind) collected ($0.02)
+Seat 4: a61d1ee folded before Flop (didn't bet)
+Seat 5: 82769a73 folded before Flop (didn't bet)
+Seat 6: 46c763e2 folded before Flop (didn't bet)
+
+

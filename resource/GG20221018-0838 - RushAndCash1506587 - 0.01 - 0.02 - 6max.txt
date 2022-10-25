@@ -1,0 +1,36 @@
+Poker Hand #RC210806587: Omaha Pot Limit  ($0.01/$0.02) - 2022/10/18 08:38:00
+Table 'RushAndCash1506587' 6-max Seat #1 is the button
+Seat 1: e3d33b90 ($2.75 in chips)
+Seat 2: 4b8f64eb ($1.73 in chips)
+Seat 3: Hero ($2 in chips)
+Seat 4: c9aac75 ($4.31 in chips)
+Seat 5: 630554da ($0.35 in chips)
+Seat 6: 327cbde8 ($2.46 in chips)
+4b8f64eb: posts small blind $0.01
+Hero: posts big blind $0.02
+*** HOLE CARDS ***
+Dealt to e3d33b90 
+Dealt to 4b8f64eb 
+Dealt to Hero [Jc 8d Qc 9c]
+Dealt to c9aac75 
+Dealt to 630554da 
+Dealt to 327cbde8 
+c9aac75: folds
+630554da: folds
+327cbde8: raises $0.05 to $0.07
+e3d33b90: folds
+4b8f64eb: folds
+Hero: folds
+Uncalled bet ($0.05) returned to 327cbde8
+*** SHOWDOWN ***
+327cbde8 collected $0.05 from pot
+*** SUMMARY ***
+Total pot $0.05 | Rake $0 | Jackpot $0 | Bingo $0
+Seat 1: e3d33b90 (button) folded before Flop (didn't bet)
+Seat 2: 4b8f64eb (small blind) folded before Flop
+Seat 3: Hero (big blind) folded before Flop
+Seat 4: c9aac75 folded before Flop (didn't bet)
+Seat 5: 630554da folded before Flop (didn't bet)
+Seat 6: 327cbde8 collected ($0.05)
+
+
