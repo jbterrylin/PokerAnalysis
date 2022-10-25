@@ -1,6 +1,14 @@
+from enum import Enum
 
-from pickle import NONE
+class Result(Enum):
+  WIN = "WIN"
+  LOSE = "LOSE"
+  CHOP = "CHOP"
 
+# class NShowDown(Enum):
+#   FIRST = "FIRST"
+#   SECOND = "SECOND"
+#   THIRD = "THIRD"
 
 class Game:
   Id = ""
