@@ -4,6 +4,8 @@ from Model.Move import Move, MoveRef, PlayerMove
 from Model.Player import Player
 import Enum
 from Enum.GameTurn import GameTurn
+import Helper
+from Helper.Convert import strToInt, strTofFloat
 from lib import *
 
 def singleGame(lines):
@@ -18,8 +20,8 @@ def singleGame(lines):
         game.Id = mo.group(1)
         game.GameType = mo.group(2)
         game.Blind = mo.group(3)
-        game.Day = mo.group(4)
-        game.DateTime = mo.group(5)
+        game.Day = datetime.strptime(mo.group(4), '%Y/%m/%d')
+        game.DateTime = datetime.strptime(mo.group(5), '%H:%M:%S')
       case r".* Seat #1 is the .*":
         regex = re.compile(r".* Seat #1 is the (.*)")
         mo = regex.search(line)
@@ -30,10 +32,7 @@ def singleGame(lines):
         player = Player()
         player.Id = mo.group(2)
         player.initMoney = mo.group(3)
-        try:
-          game.seat[int(mo.group(1))] = player
-        except:
-          print("seat x is not number")
+        game.seat[strToInt(mo.group(1))] = player
       case r".*: posts .* \$.*":
         regex = re.compile(r"(.*): posts (.*) \$(.*)")
         mo = regex.search(line)
@@ -43,7 +42,7 @@ def singleGame(lines):
         move.moveRef = mo.group(2)
         # if mo.group(2) == "small blind":
         #   move.moveRef = MoveRef.SMALL_BLIND
-        move.money = mo.group(3)
+        move.money = strTofFloat(mo.group(3))
         game.init.append(move)
       case r"\*\*\* HOLE CARDS \*\*\*":
         gameTurn = GameTurn.PREFLOP
@@ -74,8 +73,8 @@ def singleGame(lines):
           mo = regex.search(line)
           move.player = mo.group(1)
           move.move = Move.RAISE
-          move.money = mo.group(3)
-          move.moveRef = mo.group(2)
+          move.money = strTofFloat(mo.group(3))
+          move.moveRef = strTofFloat(mo.group(2))
           if re.search("(.*): (.*) and is all-in", line):
             move.isAllIn = True
         else:
@@ -87,7 +86,7 @@ def singleGame(lines):
             regex = re.compile(r"(.*): (.*) \$(.*)")
           mo = regex.search(line)
           move.player = mo.group(1)
-          move.money = mo.group(3)
+          move.money = strTofFloat(mo.group(3))
           
           match mo.group(2):
             case "bets":
@@ -109,7 +108,7 @@ def singleGame(lines):
         move = PlayerMove()
         move.player = mo.group(2)
         move.move = Move.RETURN
-        move.money = mo.group(1)
+        move.money = strTofFloat(mo.group(1))
       case r".*: shows \[.*\] \(.*\)":
         regex = re.compile(r"(.*): shows \[(.*)\] \((.*)\)")
         mo = regex.search(line)
@@ -132,7 +131,7 @@ def singleGame(lines):
         move = PlayerMove()
         move.player = mo.group(1)
         move.move = Move.COLLECT
-        move.money = mo.group(2)
+        move.money = strTofFloat(mo.group(2))
         game.showDown.append(move)
       case r"Hand was run .* times":
         regex = re.compile(r"Hand was run (.*) times")
@@ -149,7 +148,7 @@ def singleGame(lines):
       case r"Total pot \$(.*) \| Rake \$(.*) \| Jackpot \$(.*) \| Bingo \$(.*)":
         regex = re.compile(r"Total pot \$(.*) \| Rake \$(.*) \| Jackpot \$(.*) \| Bingo \$(.*)")
         mo = regex.search(line)
-        game.totalPot = mo.group(1)
+        game.totalPot = strTofFloat(mo.group(1))
       case r".*":
         # use for debug
         match regex_spm.fullmatch_in(line):
