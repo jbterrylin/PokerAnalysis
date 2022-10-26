@@ -18,7 +18,3 @@ with open(folderName+"/GG20221017-1004 - RushAndCash1425563 - 0.01 - 0.02 - 6max
       break
     else:
       singleGame.append(line.strip())
-    # print(line.strip())
-    
-
-print("tup1,tup2")
