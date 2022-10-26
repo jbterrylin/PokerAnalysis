@@ -1,11 +1,10 @@
+import sys
 from Enum.GameType import GameType
 from lib import *
-import Enum
 
 folderName = "Resource"
 gameType = GameType.PLO_PL
 
-import sys
 print("Python version: " + sys.version)
 print("Python version should above 3.10")
 
