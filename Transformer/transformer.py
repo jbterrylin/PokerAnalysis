@@ -1,11 +1,13 @@
-import Model
+from Enum.GameType import GameType
+from Enum.PokerHand import PokerHand
 from Model.Game import Game
 from Model.Move import Move, PlayerMove
 from Model.Player import Player
-import Enum
+from Model.HeroCard import HeroCard
+from Model.HeroHand import HeroHand
 from Enum.GameTurn import GameTurn
-import Helper
 from Helper.Convert import strToInt, strToFloat
+from Helper.Definer.Omaha import check_hand as omaha_check_hand
 from lib import *
 
 
@@ -19,7 +21,9 @@ def singleGame(lines):
 				regex = re.compile(r"Poker Hand (.*): (.*)  \((.*)\) - (.*) (.*)")
 				mo = regex.search(line)
 				game.Id = mo.group(1)
-				game.GameType = mo.group(2)
+				match mo.group(2):
+					case GameType.OMAHA_PL.value:
+						game.GameType = GameType.OMAHA_PL
 				game.Blind = mo.group(3)
 				game.Day = datetime.strptime(mo.group(4), '%Y/%m/%d')
 				game.DateTime = datetime.strptime(mo.group(5), '%H:%M:%S')
@@ -56,7 +60,7 @@ def singleGame(lines):
 			case r"Dealt to Hero \[.*\]":
 				regex = re.compile(r"Dealt to Hero \[(.*)\]")
 				mo = regex.search(line)
-				game.heroCard = mo.group(1).split(" ")
+				game.heroCard = HeroCard(mo.group(1).split(" "))
 			case r".*: .* \$.*" | r".*: .* \$.* to \$.*" | r".*: folds":
 				move = PlayerMove()
 				if re.search("(.*): folds", line):
@@ -159,4 +163,46 @@ def singleGame(lines):
 						continue
 					case _:
 						print(line)
+	nCardEachTurn = []
+	match game.GameType:
+		case GameType.OMAHA_PL:
+			nCardEachTurn = GameType.OMAHA_PL.getNBoardCardEachTurn()
+		case _:
+			nCardEachTurn = GameType.OMAHA_PL.getNBoardCardEachTurn()
+	tmp = 0
+	for n in nCardEachTurn:
+		tmp += n
+		match game.GameType:
+			case GameType.OMAHA_PL:
+				for board in game.board:
+					print(board[:tmp])
+					rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
+			case _:
+				# check_hand(game.heroCard)
+				rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
+		heroHand = HeroHand()
+		heroHand.evaluator = evaluator
+		heroHand.rank = rank
+		match hand:
+			case PokerHand.ROYAL_FLUSH.value:
+				heroHand.hand = PokerHand.ROYAL_FLUSH
+			case PokerHand.STRAIGHT_FLUSH.value:
+				heroHand.hand = PokerHand.STRAIGHT_FLUSH
+			case PokerHand.FOUR_OF_THE_KIND.value:
+				heroHand.hand = PokerHand.FOUR_OF_THE_KIND
+			case PokerHand.FULL_HOUSE.value:
+				heroHand.hand = PokerHand.FULL_HOUSE
+			case PokerHand.FLUSH.value:
+				heroHand.hand = PokerHand.FLUSH
+			case PokerHand.STRAIGHT.value:
+				heroHand.hand = PokerHand.STRAIGHT
+			case PokerHand.THREE_OF_THE_KIND.value:
+				heroHand.hand = PokerHand.THREE_OF_THE_KIND
+			case PokerHand.TWO_PAIR.value:
+				heroHand.hand = PokerHand.TWO_PAIR
+			case PokerHand.ONE_PAIR.value:
+				heroHand.hand = PokerHand.ONE_PAIR
+			case PokerHand.HIGH_CARD.value:
+				heroHand.hand = PokerHand.HIGH_CARD
+		game.heroHand.append(heroHand)
 	return game

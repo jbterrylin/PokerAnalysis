@@ -3,7 +3,7 @@ from Enum.GameType import GameType
 from lib import *
 
 folderName = "Resource"
-gameType = GameType.PLO_PL
+gameType = GameType.OMAHA_PL
 
 print("Python version: " + sys.version)
 print("Python version should above 3.10")
