@@ -175,7 +175,6 @@ def singleGame(lines):
 		match game.GameType:
 			case GameType.OMAHA_PL:
 				for board in game.board:
-					print(board[:tmp])
 					rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
 			case _:
 				# check_hand(game.heroCard)

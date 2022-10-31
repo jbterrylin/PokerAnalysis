@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class GameTurn(Enum):
   PREFLOP = "PREFLOP"
   FLOP = "FLOP"
