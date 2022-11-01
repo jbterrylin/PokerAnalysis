@@ -3,6 +3,7 @@ from enum import Enum
 
 class Move(Enum):
 	POST = "POST"
+	CHECK = "CHECK"
 	BET = "BET"
 	CALL = "CALL"
 	RAISE = "RAISE"
@@ -24,3 +25,6 @@ class PlayerMove:
 	card = []
 	moveRef = None
 	isAllIn = False
+
+	def __init__(self):
+		self.card = []

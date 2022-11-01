@@ -7,3 +7,9 @@ class GameTurn(Enum):
   TURN = "TURN"
   RIVER = "RIVER"
   SHOWDOWN = "SHOWDOWN"
+
+
+class Number(Enum):
+  FIRST = "FIRST"
+  SECOND = "SECOND"
+  THIRD = "THIRD"

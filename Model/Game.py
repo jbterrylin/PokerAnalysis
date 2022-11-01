@@ -13,6 +13,7 @@ class Result(Enum):
 #   THIRD = "THIRD"
 
 class Game:
+	filePath = ""
 	Id = ""
 	Blind = ""
 	GameType = ""
@@ -35,3 +36,16 @@ class Game:
 	totalPot = 0
 	heroResult = None
 	isShowDown = False
+
+	def __init__(self):
+		self.seat = {}
+		self.board = []
+		self.heroCard = []
+		self.init = []
+		self.preFlop = []
+		self.flop = []
+		self.turn = []
+		self.river = []
+		self.showDown = []
+		self.heroHand = []
+		self.finalHands = []
