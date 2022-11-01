@@ -5,23 +5,26 @@ from Model.Move import Move, PlayerMove
 from Model.Player import Player
 from Model.HeroCard import HeroCard
 from Model.HeroHand import HeroHand
-from Enum.GameTurn import GameTurn
+from Enum.GameTurn import GameTurn, Number
 from Helper.Convert import strToInt, strToFloat
 from Helper.Definer.Omaha import check_hand as omaha_check_hand
-from lib import *
+import regex_spm
+import re
+from datetime import datetime
 
 
 def singleGame(lines):
 	# print(lines)
 	game = Game()
 	gameTurn = None
+	nShowDown = Number.FIRST
 	for line in lines:
 		match regex_spm.fullmatch_in(line):
 			case r"Poker Hand .*: .*  (.*) - .*":
 				regex = re.compile(r"Poker Hand (.*): (.*)  \((.*)\) - (.*) (.*)")
 				mo = regex.search(line)
 				game.Id = mo.group(1)
-				match mo.group(2):
+				match mo.group(2).strip():
 					case GameType.OMAHA_PL.value:
 						game.GameType = GameType.OMAHA_PL
 				game.Blind = mo.group(3)
@@ -57,11 +60,21 @@ def singleGame(lines):
 				gameTurn = GameTurn.TURN
 			case r"\*\*\* .*RIVER \*\*\* .*":
 				gameTurn = GameTurn.RIVER
+			case r"\*\*\* .*SHOWDOWN \*\*\*":
+				regex = re.compile(r"\*\*\* (.*)SHOWDOWN \*\*\*")
+				mo = regex.search(line)
+				match mo.group(1).strip():
+					case Number.FIRST.value | "":
+						nShowDown = Number.FIRST
+					case Number.SECOND.value:
+						nShowDown = Number.SECOND
+					case Number.THIRD.value:
+						nShowDown = Number.THIRD
 			case r"Dealt to Hero \[.*\]":
 				regex = re.compile(r"Dealt to Hero \[(.*)\]")
 				mo = regex.search(line)
 				game.heroCard = HeroCard(mo.group(1).split(" "))
-			case r".*: .* \$.*" | r".*: .* \$.* to \$.*" | r".*: folds":
+			case r".*: .* \$.*" | r".*: .* \$.* to \$.*" | r".*: folds" | r".*: checks":
 				move = PlayerMove()
 				if re.search("(.*): folds", line):
 					regex = re.compile(r"(.*): folds")
@@ -82,6 +95,11 @@ def singleGame(lines):
 					move.moveRef = strToFloat(mo.group(2))
 					if re.search("(.*): (.*) and is all-in", line):
 						move.isAllIn = True
+				elif re.search("(.*): checks", line):
+					regex = re.compile(r"(.*): checks")
+					mo = regex.search(line)
+					move.player = mo.group(1)
+					move.move = Move.CHECK
 				else:
 					regex = None
 					if re.search("(.*): (.*) and is all-in", line):
@@ -114,13 +132,13 @@ def singleGame(lines):
 				move.player = mo.group(2)
 				move.move = Move.RETURN
 				move.money = strToFloat(mo.group(1))
-			case r".*: shows \[.*\] \(.*\)":
-				regex = re.compile(r"(.*): shows \[(.*)\] \((.*)\)")
+			case r".*: shows \[.*\].*":
+				regex = re.compile(r"(.*): shows \[(.*)\](.*)")
 				mo = regex.search(line)
 				move = PlayerMove()
 				move.player = mo.group(1)
 				move.card = mo.group(2).split(" ")
-				move.moveRef = mo.group(3)
+				move.moveRef = mo.group(3).strip().replace("(","").replace(")","")
 				match gameTurn:
 					case GameTurn.PREFLOP:
 						game.preFlop.append(move)
@@ -137,7 +155,23 @@ def singleGame(lines):
 				move.player = mo.group(1)
 				move.move = Move.COLLECT
 				move.money = strToFloat(mo.group(2))
-				game.showDown.append(move)
+				match nShowDown:
+					case Number.FIRST:
+						if len(game.showDown) < 1:
+							game.showDown.append([move])
+						else:
+							game.showDown[0].append(move)
+					case Number.SECOND:
+						if len(game.showDown) < 2:
+							game.showDown.append([move])
+						else:
+							game.showDown[1].append(move)
+					case Number.THIRD:
+						if len(game.showDown) < 3:
+							game.showDown.append([move])
+						else:
+							game.showDown[2].append(move)
+
 			case r"Hand was run .* times":
 				regex = re.compile(r"Hand was run (.*) times")
 				mo = regex.search(line)
@@ -157,51 +191,13 @@ def singleGame(lines):
 			case r".*":
 				# use for debug
 				match regex_spm.fullmatch_in(line):
-					case r"Dealt to (.*)" | r"\*\*\* (.*) \*\*\*":
+					case r"Dealt to (.*)" | r"\*\*\* (.*) \*\*\*" | r"Seat \d: .*":
 						continue
 					case r"Seat \d: (.*) folded before Flop(.*)" | r"Seat \d: (.*) showed \[(.*)\] and (.*) with (.*)":
 						continue
+					case r"(.*): Receives Cashout \(\$.*\)" | r"(.*): Chooses to EV Cashout" | r"(.*): Pays Cashout Risk \(\$.*\)":
+						continue
 					case _:
+						print(game.Id)
 						print(line)
-	nCardEachTurn = []
-	match game.GameType:
-		case GameType.OMAHA_PL:
-			nCardEachTurn = GameType.OMAHA_PL.getNBoardCardEachTurn()
-		case _:
-			nCardEachTurn = GameType.OMAHA_PL.getNBoardCardEachTurn()
-	tmp = 0
-	for n in nCardEachTurn:
-		tmp += n
-		match game.GameType:
-			case GameType.OMAHA_PL:
-				for board in game.board:
-					rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
-			case _:
-				# check_hand(game.heroCard)
-				rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
-		heroHand = HeroHand()
-		heroHand.evaluator = evaluator
-		heroHand.rank = rank
-		match hand:
-			case PokerHand.ROYAL_FLUSH.value:
-				heroHand.hand = PokerHand.ROYAL_FLUSH
-			case PokerHand.STRAIGHT_FLUSH.value:
-				heroHand.hand = PokerHand.STRAIGHT_FLUSH
-			case PokerHand.FOUR_OF_THE_KIND.value:
-				heroHand.hand = PokerHand.FOUR_OF_THE_KIND
-			case PokerHand.FULL_HOUSE.value:
-				heroHand.hand = PokerHand.FULL_HOUSE
-			case PokerHand.FLUSH.value:
-				heroHand.hand = PokerHand.FLUSH
-			case PokerHand.STRAIGHT.value:
-				heroHand.hand = PokerHand.STRAIGHT
-			case PokerHand.THREE_OF_THE_KIND.value:
-				heroHand.hand = PokerHand.THREE_OF_THE_KIND
-			case PokerHand.TWO_PAIR.value:
-				heroHand.hand = PokerHand.TWO_PAIR
-			case PokerHand.ONE_PAIR.value:
-				heroHand.hand = PokerHand.ONE_PAIR
-			case PokerHand.HIGH_CARD.value:
-				heroHand.hand = PokerHand.HIGH_CARD
-		game.heroHand.append(heroHand)
 	return game
