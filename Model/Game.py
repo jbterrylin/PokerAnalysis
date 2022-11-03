@@ -36,6 +36,9 @@ class Game:
 	totalPot = 0
 	heroResult = None
 	isShowDown = False
+	bets = None
+	sumBets = None
+	heroMoneyChange = 0
 
 	def __init__(self):
 		self.seat = {}

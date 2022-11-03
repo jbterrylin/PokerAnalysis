@@ -2,6 +2,7 @@ from enum import Enum
 
 
 class GameTurn(Enum):
+  INIT = "INIT"
   PREFLOP = "PREFLOP"
   FLOP = "FLOP"
   TURN = "TURN"
