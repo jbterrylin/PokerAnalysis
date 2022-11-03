@@ -12,7 +12,6 @@ sns.set_theme(style="white")
 
 def setScreen(games):
 	df = pd.DataFrame([o.toDict() for o in games])
-	df.to_csv("data.csv")
 	print(df)
 	app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 

@@ -55,6 +55,12 @@ def init():
 		print("所有进程执行完毕")
 		for gameAsync in gameAsyncs:
 			games += gameAsync.get()
+
+		# export games
+		# df = pd.DataFrame([o.__dict__ for o in games])
+		# df.to_csv("data.csv")
+		# df = pd.DataFrame([o.toDict() for o in games])
+		# df.to_csv("data1.csv")
 		setScreen(games)
 
 

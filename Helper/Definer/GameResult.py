@@ -31,6 +31,7 @@ def setGameResultHelper(rank, hand, evaluator):
 			heroHand.hand = PokerHand.HIGH_CARD
 	return heroHand
 
+
 def setGameResult(game):
 	nCardEachTurn = []
 	match game.GameType:
@@ -38,22 +39,21 @@ def setGameResult(game):
 			nCardEachTurn = GameType.OMAHA_PL.getNBoardCardEachTurn()
 		case _:
 			nCardEachTurn = GameType.OMAHA_PL.getNBoardCardEachTurn()
-	tmp = 0
-	for n in nCardEachTurn:
-		tmp += n
-		match game.GameType:
-			case GameType.OMAHA_PL:
-				if len(game.board) != 0:
-					for board in game.board:
+
+	if len(game.board) != 0:
+		for board in game.board:
+			tmp = 0
+			tmpHeroHands = []
+			for n in nCardEachTurn:
+				tmp += n
+				match game.GameType:
+					case GameType.OMAHA_PL:
 						rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
-				else:
-					rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, [])
-			case _:
-				# check_hand(game.heroCard)
-				if len(game.board) != 0:
-					for board in game.board:
+					case _:
 						rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
-				else:
-					rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, [])
-		game.heroHand.append(setGameResultHelper(rank, hand, evaluator))
+				tmpHeroHands.append(setGameResultHelper(rank, hand, evaluator))
+			game.heroHand.append(tmpHeroHands)
+	else:
+		rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, [])
+		game.heroHand.append([setGameResultHelper(rank, hand, evaluator)])
 	return game
