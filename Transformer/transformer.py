@@ -25,13 +25,13 @@ def singleGame(lines):
 			case r"Poker Hand .*: .*  (.*) - .*":
 				regex = re.compile(r"Poker Hand (.*): (.*)  \((.*)\) - (.*) (.*)")
 				mo = regex.search(line)
-				game.Id = mo.group(1)
+				game.id = mo.group(1)
 				match mo.group(2).strip():
 					case GameType.OMAHA_PL.value:
-						game.GameType = GameType.OMAHA_PL
-				game.Blind = mo.group(3)
-				game.Day = datetime.strptime(mo.group(4), '%Y/%m/%d')
-				game.DateTime = datetime.strptime(mo.group(5), '%H:%M:%S')
+						game.gameType = GameType.OMAHA_PL
+				game.blind = mo.group(3)
+				game.day = datetime.strptime(mo.group(4), '%Y/%m/%d')
+				game.dateTime = datetime.strptime(mo.group(5), '%H:%M:%S')
 			case r".* Seat #1 is the .*":
 				regex = re.compile(r".* Seat #1 is the (.*)")
 				mo = regex.search(line)
@@ -40,7 +40,7 @@ def singleGame(lines):
 				regex = re.compile(r"Seat (.*): (.*) \(\$(.*) in chips\)")
 				mo = regex.search(line)
 				player = Player()
-				player.Id = mo.group(2)
+				player.id = mo.group(2)
 				player.initMoney = mo.group(3)
 				game.seat[strToInt(mo.group(1))] = player
 			case r".*: posts .* \$.*":
@@ -217,6 +217,6 @@ def singleGame(lines):
 					case r"(.*): Receives Cashout \(\$.*\)" | r"(.*): Chooses to EV Cashout" | r"(.*): Pays Cashout Risk \(\$.*\)":
 						continue
 					case _:
-						print(game.Id)
+						print(game.id)
 						print(line)
 	return game

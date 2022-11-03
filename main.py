@@ -63,10 +63,4 @@ def init():
 		# df.to_csv("data1.csv")
 		setScreen(games)
 
-
-# a = [x for x in games if len(x.showDown) > 1]
-# for aa in a:
-#   if len(aa.showDown[0]) > 1 or len(aa.showDown[1]) > 1:
-#     print(aa.Id)
-
 init()

@@ -19,7 +19,7 @@ class MoveRef(Enum):
 
 
 class PlayerMove:
-	Id = 0
+	id = 0
 	player = None
 	move = None
 	money = 0
@@ -28,5 +28,5 @@ class PlayerMove:
 	isAllIn = False
 
 	def __init__(self, id):
-		self.Id = id
+		self.id = id
 		self.card = []

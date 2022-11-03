@@ -7,7 +7,7 @@ def playerBetEachTurnHelper(moves):
 	result = {}
 	if len(moves) > 0:
 		for move in sorted(moves, key=lambda x:
-			x.Id if x.moveRef != MoveRef.SMALL_BLIND or x.moveRef != MoveRef.BIG_BLIND else -1):
+			x.id if x.moveRef != MoveRef.SMALL_BLIND or x.moveRef != MoveRef.BIG_BLIND else -1):
 			match move.move:
 				case Move.CALL:
 					result[move.player] = noneTo0(result.get(move.player)) + move.money
@@ -23,7 +23,7 @@ def playerBetEachTurnHelper(moves):
 def playerBetEachTurn(game):
 	inits = {}
 	initBlindMoves = []
-	for init in sorted(game.init, key=lambda x: x.Id, reverse=True):
+	for init in sorted(game.init, key=lambda x: x.id, reverse=True):
 		if init.moveRef == MoveRef.SMALL_BLIND or init.moveRef == MoveRef.BIG_BLIND:
 			initBlindMoves.append(init)
 		else:
@@ -51,7 +51,7 @@ def playerBetEachTurn(game):
 	if sum(sumResult.values()) != game.totalPot:
 		print(sumResult.values())
 		print(sum(sumResult.values()), game.totalPot)
-		print(game.Id, "playerBetEachTurn error")
+		print(game.id, "playerBetEachTurn error")
 
 	game.bets = result
 	game.sumBets = sumResult

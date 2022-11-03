@@ -34,7 +34,7 @@ def setGameResultHelper(rank, hand, evaluator):
 
 def setGameResult(game):
 	nCardEachTurn = []
-	match game.GameType:
+	match game.gameType:
 		case GameType.OMAHA_PL:
 			nCardEachTurn = GameType.OMAHA_PL.getNBoardCardEachTurn()
 		case _:
@@ -46,7 +46,7 @@ def setGameResult(game):
 			tmpHeroHands = []
 			for n in nCardEachTurn:
 				tmp += n
-				match game.GameType:
+				match game.gameType:
 					case GameType.OMAHA_PL:
 						rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
 					case _:

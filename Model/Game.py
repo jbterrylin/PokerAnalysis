@@ -17,11 +17,11 @@ class Result(Enum):
 
 class Game:
 	filePath = ""
-	Id = ""
-	Blind = ""
-	GameType = ""
-	Day = ""
-	DateTime = ""
+	id = ""
+	blind = ""
+	gameType = ""
+	day = ""
+	dateTime = ""
 	seat1Pos = ""
 	seat = {}
 	nBoard = 1
