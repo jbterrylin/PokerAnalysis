@@ -1,5 +1,6 @@
 from Enum.GameType import GameType
 from Enum.PokerHand import PokerHand
+from Enum.Common import *
 from Model.Game import Game
 from Model.Move import Move, PlayerMove, MoveRef
 from Model.Player import Player
@@ -43,6 +44,16 @@ def singleGame(lines):
 				player.id = mo.group(2)
 				player.initMoney = mo.group(3)
 				game.seat[strToInt(mo.group(1))] = player
+			case r"Cash Drop to Pot : total \$.*":
+				regex = re.compile(r"Cash Drop to Pot : total \$(.*)")
+				mo = regex.search(line)
+				move = PlayerMove(nMove)
+				nMove += 1
+				move.player = SYSTEM
+				move.move = Move.POST
+				move.money = strToFakeInt(mo.group(1))
+				move.moveRef = MoveRef.CASH_DROP
+				game.init.append(move)
 			case r".*: posts .* \$.*":
 				regex = re.compile(r"(.*): posts (.*) \$(.*)")
 				mo = regex.search(line)

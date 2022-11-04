@@ -16,6 +16,7 @@ class Move(Enum):
 class MoveRef(Enum):
 	SMALL_BLIND = "SMALL_BLIND"
 	BIG_BLIND = "BIG_BLIND"
+	CASH_DROP = "CASH_DROP"
 
 
 class PlayerMove:
