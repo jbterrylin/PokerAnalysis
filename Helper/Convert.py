@@ -1,6 +1,8 @@
 import enum
 from decimal import Decimal
 
+from Helper.Compare import isArray
+
 
 def strToInt(text):
 	try:
@@ -33,12 +35,12 @@ def noneTo0(num):
 
 def dictWithClassValueToDict(classes):
 	return {
-		key: classes.get(key, 0).__dict__ for key in set(classes)
+		key: classes.get(key).__dict__ for key in set(classes)
 	}
 
 
 def classesToDict(classes):
-	return [c.__dict__ if type(c) not in (tuple, list) else classesToDict(c) for c in classes]
+	return [c.__dict__ if not isArray(c) else classesToDict(c) for c in classes]
 
 
 def enumToVal(value):
@@ -49,9 +51,9 @@ def enumToVal(value):
 
 def allEnumInDictToVal(dicti):
 	return {
-		enumToVal(key): enumToVal(dicti.get(key, 0)) for key in set(dicti)
+		enumToVal(key): enumToVal(dicti.get(key)) for key in set(dicti)
 	}
 
 
 def allEnumInDictsToVal(dicts):
-	return [allEnumInDictToVal(d) if type(d) not in (tuple, list) else allEnumInDictsToVal(d) for d in dicts]
+	return [allEnumInDictToVal(d) if not isArray(d) else allEnumInDictsToVal(d) for d in dicts]

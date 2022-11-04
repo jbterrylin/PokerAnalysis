@@ -10,9 +10,9 @@ def playerBetEachTurnHelper(moves):
 			x.id if x.moveRef != MoveRef.SMALL_BLIND or x.moveRef != MoveRef.BIG_BLIND else -1):
 			match move.move:
 				case Move.CALL:
-					result[move.player] = noneTo0(result.get(move.player)) + move.money
+					result[move.player] = result.get(move.player, 0) + move.money
 				case Move.RETURN:
-					result[move.player] = noneTo0(result.get(move.player)) - move.money
+					result[move.player] = result.get(move.player, 0) - move.money
 				case Move.RAISE | Move.BET | Move.POST:
 					result[move.player] = move.money
 	else:

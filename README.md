@@ -40,3 +40,6 @@ ui:
 https://dash-bootstrap-components.opensource.faculty.ai/examples/simple-sidebar/page-1
 https://dash-bootstrap-components.opensource.faculty.ai/
 https://dash-bootstrap-components.opensource.faculty.ai/docs/themes/explorer/
+
+code logic:
+https://www.geeksforgeeks.org/filter-pandas-dataframe-with-multiple-conditions/
