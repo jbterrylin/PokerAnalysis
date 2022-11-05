@@ -7,8 +7,11 @@ class HeroCard:
 	straightDraw = 0
 	flushDraw = 0
 	nPair = 0
+	score = []
 
 	def __init__(self, cards):
+		self.score = []
+
 		self.cards = cards
 		comb = combinations(cards, 2)
 		for i in list(comb):

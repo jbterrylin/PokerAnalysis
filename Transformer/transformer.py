@@ -8,7 +8,7 @@ from Model.HeroCard import HeroCard
 from Model.HeroHand import HeroHand
 from Enum.GameTurn import GameTurn, Number
 from Helper.Convert import strToInt, strToFakeInt
-from Helper.Definer.Omaha import check_hand as omaha_check_hand
+from Helper.Definer.HandEvaluate import check_hand as omaha_check_hand
 import regex_spm
 import re
 from datetime import datetime

@@ -1,10 +1,12 @@
 from Enum.GameType import GameType
 from Enum.PokerHand import PokerHand
-from Helper.Definer.Omaha import check_hand as omaha_check_hand
+from Helper.Definer.HandEvaluate import check_hand as omaha_check_hand
+from Helper.Definer.HandEvaluate import check_hole_card as omaha_check_hole_card
+
 from Model.HeroHand import HeroHand
 
 
-def setGameResultHelper(rank, hand, evaluator):
+def setHeroHandNCardHelper(rank, hand, evaluator):
 	heroHand = HeroHand()
 	heroHand.evaluator = evaluator
 	heroHand.rank = rank
@@ -32,7 +34,7 @@ def setGameResultHelper(rank, hand, evaluator):
 	return heroHand
 
 
-def setGameResult(game):
+def setHeroHandNCard(game):
 	nCardEachTurn = []
 	match game.gameType:
 		case GameType.OMAHA_PL:
@@ -51,9 +53,8 @@ def setGameResult(game):
 						rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
 					case _:
 						rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
-				tmpHeroHands.append(setGameResultHelper(rank, hand, evaluator))
+				tmpHeroHands.append(setHeroHandNCardHelper(rank, hand, evaluator))
 			game.heroHand.append(tmpHeroHands)
-	else:
-		rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, [])
-		game.heroHand.append([setGameResultHelper(rank, hand, evaluator)])
+
+	game.heroCard.score = omaha_check_hole_card(game.heroCard.cards)
 	return game

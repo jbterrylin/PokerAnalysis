@@ -11,6 +11,8 @@ value_str_dict = {
 	1: '2', 2: '3', 3: '4', 4: '5', 5: '6', 6: '7', 7: '8',
 	8: '9', 9: 'T', 10: 'J', 11: 'Q', 12: 'K', 13: 'A'}
 
+suit_dict = {"s": 1, "h": 2, "d": 3, "c": 4}
+
 
 def check_cards_can_straight(cards):
 	values = sorted([value_dict[c[0]] for c in cards])

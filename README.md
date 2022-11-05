@@ -36,6 +36,8 @@ https://dash.plotly.com/basic-callbacks
 https://dash.plotly.com/interactive-graphing
 https://dash.plotly.com/sharing-data-between-callbacks
 https://www.bianalyst-gt.com/post/python-dash-%E5%AF%A6%E8%B8%90%EF%BC%88%E4%B8%8A%EF%BC%89-%E8%8D%89%E5%9C%96%E8%A8%AD%E8%A8%88%E8%88%87css-%E6%95%99%E5%AD%B8
+
+https://zhuanlan.zhihu.com/p/544198743
 ui:
 https://dash-bootstrap-components.opensource.faculty.ai/examples/simple-sidebar/page-1
 https://dash-bootstrap-components.opensource.faculty.ai/
