@@ -45,3 +45,5 @@ https://dash-bootstrap-components.opensource.faculty.ai/docs/themes/explorer/
 
 code logic:
 https://www.geeksforgeeks.org/filter-pandas-dataframe-with-multiple-conditions/
+
+https://stackoverflow.com/questions/48578906/flask-caching-multiple-files-in-project

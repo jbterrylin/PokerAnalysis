@@ -2,7 +2,7 @@ from flask_caching import Cache
 from TrashFile.Page.App import *
 import dash_bootstrap_components as dbc
 from dash import dcc, html
-from Css import *
+from TrashFile.Css import *
 app = dash.Dash(
 	__name__,
 	external_stylesheets=[dbc.themes.BOOTSTRAP],

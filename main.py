@@ -1,16 +1,18 @@
 import os
 from datetime import datetime
 from multiprocessing import *
+import streamlit as st
 
 import Transformer.transformer as t
 from Enum.GameType import GameType
-from Helper.Definer.GameResult import setGameResult
+from Helper.Definer.HeroHandAndCard import setHeroHandNCard
 from Helper.MoneyRelated import playerBetEachTurn
-from View.HomePage import setScreen
 from Helper.HeroMoneyChange import heroMoneyChange
+from App import setScreen
 
-folderName = "Resource"
-gameType = GameType.OMAHA_PL
+if __name__ == '__main__':
+	folderName = "Resource"
+	gameType = GameType.OMAHA_PL
 
 # print("Python version: " + sys.version)
 # print("Python version should above 3.10")
@@ -24,17 +26,18 @@ def fileToGames(fpath):
 			if line.strip() == "" and len(singleGame) > 0:
 				game = t.singleGame(singleGame)
 				game.filePath = fpath
-				game = setGameResult(game)
+				game = setHeroHandNCard(game)
 				game = playerBetEachTurn(game)
 				game = heroMoneyChange(game)
 				games.append(game)
 				singleGame = []
-				# break
+			# break
 			elif line.strip() != "":
 				singleGame.append(line.strip())
 		return games
 
 
+@st.cache(persist=True, allow_output_mutation=True)
 def init():
 	if __name__ == '__main__':
 		games = []
@@ -44,23 +47,26 @@ def init():
 
 		start_time = datetime.now()
 		# threads = []
-		for filename in os.listdir(folderName)[:5]:
+		for filename in os.listdir(folderName):
 			fpath = os.path.join(folderName, filename)
 			if os.path.isfile(fpath):
-				# gameAsyncs.append(pool.apply_async(fileToGames, args=[fpath]))
-				games += fileToGames(fpath)
+				gameAsyncs.append(pool.apply_async(fileToGames, args=[fpath]))
+			# games += fileToGames(fpath)
 		pool.close()
 		pool.join()
 		print("time:", datetime.now() - start_time)
 		print("所有进程执行完毕")
 		for gameAsync in gameAsyncs:
 			games += gameAsync.get()
-
 		# export games
 		# df = pd.DataFrame([o.__dict__ for o in games])
 		# df.to_csv("data.csv")
 		# df = pd.DataFrame([o.toDict() for o in games])
 		# df.to_csv("data1.csv")
-		setScreen(games)
+		return games
 
-init()
+
+if __name__ == '__main__':
+	if 'games' not in st.session_state:
+		st.session_state.games = init()
+	setScreen()

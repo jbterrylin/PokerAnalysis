@@ -5,7 +5,7 @@ import dash_bootstrap_components as dbc
 from dash import Input, Output, dcc, html, callback
 from dash.exceptions import PreventUpdate
 
-from Css import *
+from TrashFile.Css import *
 
 
 def startServer(app):
