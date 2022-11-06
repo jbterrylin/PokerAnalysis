@@ -31,6 +31,11 @@ def singleGame(lines):
 					case GameType.OMAHA_PL.value:
 						game.gameType = GameType.OMAHA_PL
 				game.blind = mo.group(3)
+				if "/" in mo.group(3):
+					game.blind = {
+						MoveRef.SMALL_BLIND: strToFakeInt(mo.group(3).split("/")[0].replace("$","")),
+						MoveRef.BIG_BLIND: strToFakeInt(mo.group(3).split("/")[1].replace("$",""))
+					}
 				game.day = datetime.strptime(mo.group(4), '%Y/%m/%d')
 				game.dateTime = datetime.strptime(mo.group(5), '%H:%M:%S')
 			case r".* Seat #1 is the .*":

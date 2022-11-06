@@ -1,6 +1,6 @@
 from enum import Enum
 
-from Helper.Convert import dictWithClassValueToDict, classesToDict, allEnumInDictsToVal, allEnumInDictToVal
+from Helper.Convert import dictWithClassValueToDict, classesToDict, allEnumInDictsToVal, allEnumInDictToVal, toDict
 
 
 class Result(Enum):
@@ -74,6 +74,7 @@ class Game:
 		result["showDown"] = allEnumInDictsToVal(result["showDown"])
 		result["heroHand"] = allEnumInDictsToVal(result["heroHand"])
 
-		result["heroCard"] = self.heroCard.__dict__
+		result["heroCard"] = toDict(self.heroCard)
+		result["blind"] = allEnumInDictToVal(self.blind)
 		result["bets"] = allEnumInDictToVal(self.bets)
 		return result

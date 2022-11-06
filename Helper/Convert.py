@@ -1,14 +1,14 @@
 import enum
 from decimal import Decimal
 
-from Helper.Compare import isArray
+from Helper.Compare import isArray, isDict
 
 
 def strToInt(text):
 	try:
 		text = int(text)
 	except:
-		print(text + " fail to convert number")
+		print(str(text) + "fail to convert number")
 		return -1
 	return text
 
@@ -22,7 +22,7 @@ def strToFloat(text):
 	try:
 		text = Decimal(text)
 	except:
-		print(text + " fail to convert to float")
+		print(str(text) + "fail to convert to float")
 		return -1
 	return text
 
@@ -33,14 +33,26 @@ def noneTo0(num):
 	return num
 
 
+def toDict(val):
+	if not isDict(val):
+		return val.__dict__
+	return val
+
+
+def fakeIntToBB(val, bbUnit):
+	if isArray(val):
+		return [v/bbUnit[i] for i, v in enumerate(val)]
+	return val/bbUnit
+
+
 def dictWithClassValueToDict(classes):
 	return {
-		key: classes.get(key).__dict__ for key in set(classes)
+		key: toDict(classes.get(key)) for key in set(classes)
 	}
 
 
 def classesToDict(classes):
-	return [c.__dict__ if not isArray(c) else classesToDict(c) for c in classes]
+	return [toDict(c) if not isArray(c) else classesToDict(c) for c in classes]
 
 
 def enumToVal(value):
