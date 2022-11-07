@@ -1,3 +1,5 @@
+from collections import Counter
+
 import numpy as np
 
 
@@ -33,7 +35,5 @@ def check_cards_can_flush(cards):
 
 
 def check_pocket_pair(cards):
-	values = np.unique([c[0] for c in cards])
-	if len(values) == 1:
-		return True
-	return False
+	valCounter = Counter(c[0] for c in cards)
+	return sum(i > 1 for i in valCounter.values())
