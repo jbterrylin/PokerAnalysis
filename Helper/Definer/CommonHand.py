@@ -27,11 +27,18 @@ def check_cards_can_straight(cards):
 	return False
 
 
-def check_cards_can_flush(cards):
-	values = np.unique([c[1] for c in cards])
-	if len(values) == 1:
+def check_cards_can_open_end_straight(cards):
+	values = sorted([value_dict[c[0]] for c in cards])
+	if values[1] - values[0] == 1:
+		return True
+	if values[0] == 1 and values[1] == 13:
 		return True
 	return False
+
+
+def check_cards_can_flush(cards):
+	valCounter = Counter(c[1] for c in cards)
+	return sum(i > 1 for i in valCounter.values())
 
 
 def check_pocket_pair(cards):
