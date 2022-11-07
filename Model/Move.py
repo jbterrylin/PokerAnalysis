@@ -1,5 +1,7 @@
 from enum import Enum
 
+from Enum.GameTurn import GameTurn
+
 
 class Move(Enum):
 	POST = "POST"
@@ -27,7 +29,9 @@ class PlayerMove:
 	card = []
 	moveRef = None
 	isAllIn = False
+	turn = None
 
 	def __init__(self, id):
 		self.id = id
 		self.card = []
+		self.turn = GameTurn.INIT

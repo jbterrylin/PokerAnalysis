@@ -1,5 +1,6 @@
 from enum import Enum
 
+from Enum.GameTurn import GameTurn
 from Helper.Convert import dictWithClassValueToDict, classesToDict, allEnumInDictsToVal, allEnumInDictToVal, toDict
 
 
@@ -33,6 +34,7 @@ class Game:
 	turn = []
 	river = []
 	showDown = []
+	sumMoves = []
 	# include every turn hand (preflop pair A, flop trip A, Turn full house...)
 	heroHand = []
 	finalHands = []
@@ -52,8 +54,20 @@ class Game:
 		self.turn = []
 		self.river = []
 		self.showDown = []
+		self.sumMoves = []
 		self.heroHand = []
 		self.finalHands = []
+
+	def joinMovesWithoutInit(self):
+		for turn in [
+			(self.preFlop, GameTurn.PREFLOP),
+			(self.flop, GameTurn.FLOP),
+			(self.turn, GameTurn.TURN),
+			(self.river, GameTurn.RIVER)
+		]:
+			for m in turn[0]:
+				m.turn = turn[1]
+				self.sumMoves.append(m)
 
 	def toDict(self):
 		result = self.__dict__
@@ -65,6 +79,7 @@ class Game:
 		result["turn"] = classesToDict(self.turn)
 		result["river"] = classesToDict(self.river)
 		result["showDown"] = classesToDict(self.showDown)
+		result["sumMoves"] = classesToDict(self.sumMoves)
 		result["heroHand"] = classesToDict(self.heroHand)
 		result["init"] = allEnumInDictsToVal(result["init"])
 		result["preFlop"] = allEnumInDictsToVal(result["preFlop"])
@@ -72,6 +87,7 @@ class Game:
 		result["turn"] = allEnumInDictsToVal(result["turn"])
 		result["river"] = allEnumInDictsToVal(result["river"])
 		result["showDown"] = allEnumInDictsToVal(result["showDown"])
+		result["sumMoves"] = allEnumInDictsToVal(result["sumMoves"])
 		result["heroHand"] = allEnumInDictsToVal(result["heroHand"])
 
 		result["heroCard"] = toDict(self.heroCard)

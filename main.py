@@ -29,6 +29,7 @@ def fileToGames(fpath):
 				game = setHeroHandNCard(game)
 				game = playerBetEachTurn(game)
 				game = heroMoneyChange(game)
+				game.joinMovesWithoutInit()
 				games.append(game)
 				singleGame = []
 			# break

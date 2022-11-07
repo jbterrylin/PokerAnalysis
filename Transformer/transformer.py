@@ -171,6 +171,7 @@ def singleGame(lines):
 				move = PlayerMove(nMove)
 				nMove += 1
 				move.player = mo.group(1)
+				move.move = Move.SHOW
 				move.card = mo.group(2).split(" ")
 				move.moveRef = mo.group(3).strip().replace("(","").replace(")","")
 				match gameTurn:
