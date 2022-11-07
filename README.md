@@ -47,3 +47,9 @@ code logic:
 https://www.geeksforgeeks.org/filter-pandas-dataframe-with-multiple-conditions/
 
 https://stackoverflow.com/questions/48578906/flask-caching-multiple-files-in-project
+
+https://plotly.com/python/funnel-charts/
+https://zhuanlan.zhihu.com/p/270479185
+https://plotly.com/python/categorical-axes/
+https://plotly.com/python/graphing-multiple-chart-types/
+https://docs.streamlit.io/library/api-reference/charts/st.line_chart

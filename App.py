@@ -1,52 +1,15 @@
-import numpy as np
 import pandas as pd
 import streamlit as st
-import plotly.express as px
-from statistics import mean
-from streamlit_plotly_events import plotly_events
 
+from Enum.GameTurn import GameTurn
 from Helper.Convert import fakeIntToBB
-from Model.Move import MoveRef
-
-
-def setGraphStyle(fig):
-	return fig.update_layout(paper_bgcolor="rgb(14, 17, 23)", plot_bgcolor="rgb(39, 39, 49)", font_color="white")
-
-
-def graph1(heroMoneyChanges):
-	heroMoneyChangeViolin = px.violin(y=heroMoneyChanges, box=True, points='all', labels={
-		"y": "heroMoneyChanges"
-	})
-	st.title("heroMoneyChange each game")
-	st.plotly_chart(heroMoneyChangeViolin, use_container_width=True)
-
-
-def graph2(df, heroMoneyChanges):
-	st.title("heroMoneyChange / heroHoleCardScore (Max)")
-	heroCardScoreBy = st.selectbox('heroHoleCardScore by: ', ('Max', 'Min', 'Mean'))
-	if heroCardScoreBy == 'Max':
-		heroCardScore = [max(hc["score"]) for hc in df["heroCard"]]
-	elif heroCardScoreBy == 'Min':
-		heroCardScore = [min(hc["score"]) for hc in df["heroCard"]]
-	else:
-		heroCardScore = [mean(hc["score"]) for hc in df["heroCard"]]
-	heroHandRank = px.scatter(df, x=heroMoneyChanges, y=heroCardScore, labels={
-		"x": "heroMoneyChanges",
-		"y": "heroHoleCardScore (" + heroCardScoreBy + ")"
-	})
-	heroHandRank.update_traces(text=np.array(df['id']),
-	                           hovertemplate='id: %{text} <br>heroMoneyChanges: %{x} <br>heroHoleCardScore: %{y}')
-	heroHandRank = setGraphStyle(heroHandRank)
-	selected_points = plotly_events(heroHandRank, click_event=True)
-	if len(selected_points) != 0:
-		print(selected_points[0]["pointIndex"])
-
-
-# st.write(df.iloc[[0]])
-# st.plotly_chart(heroHandRank, use_container_width=True)
+from Model.Move import MoveRef, Move
+from View.Page1 import Page1
+from View.Page2 import Page2
 
 
 def setScreen():
+	selectedPage = st.sidebar.selectbox('Page', ('Money', 'Card'))
 	if 'isMoneyUnit' not in st.session_state:
 		st.session_state.isMoneyUnit = 1
 	if st.sidebar.radio("Money Unit:", ("Money", "Big Blind"), horizontal=True) == "Money":
@@ -69,9 +32,16 @@ def setScreen():
 			bbs = df["blind"].str[MoveRef.BIG_BLIND.value]
 			df = df.loc[((df["heroMoneyChange"] > bbs) | (df["heroMoneyChange"] < -bbs))]
 
-		heroMoneyChanges = df["heroMoneyChange"]
 		if not st.session_state.isMoneyUnit:
-			heroMoneyChanges = fakeIntToBB(heroMoneyChanges, df["blind"].str[MoveRef.BIG_BLIND.value])
-		graph1(heroMoneyChanges)
+			df["heroMoneyChange"] = fakeIntToBB(df["heroMoneyChange"], df["blind"].str[MoveRef.BIG_BLIND.value])
 
-		graph2(df, heroMoneyChanges)
+		heroFoldTurns = []
+		for _, row in df.iterrows():
+			moves = sorted(row["sumMoves"], key=lambda x: x["id"])
+			heroFoldTurns.append(next((m["turn"] for m in moves if
+			                           (m["player"] == "Hero" and (m["move"] == Move.FOLD.value or m.get("isAllIn", False)))),
+			                          GameTurn.SHOWDOWN.value))
+		if selectedPage == "Money":
+			Page1(df, heroFoldTurns)
+		elif selectedPage == "Card":
+			Page2(df, heroFoldTurns)
