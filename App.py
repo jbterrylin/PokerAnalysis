@@ -30,6 +30,10 @@ def setScreen():
 
 	if 'games' in st.session_state:
 		df = pd.DataFrame([o.toDict() for o in st.session_state.games])
+		# for _, row in df.iterrows():
+		# 	if row["id"] == "#RC211503132":
+		# 		print(row["heroCard"]["straightDraw"])
+		# 		print(row["heroCard"]["openEndDraw"])
 
 		if st.session_state.removePlain:
 			bbs = df["blind"].str[MoveRef.BIG_BLIND.value]
