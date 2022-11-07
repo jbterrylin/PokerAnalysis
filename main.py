@@ -1,6 +1,8 @@
 import os
 from datetime import datetime
 from multiprocessing import *
+
+import pandas as pd
 import streamlit as st
 
 import Transformer.transformer as t
@@ -60,10 +62,10 @@ def init():
 		for gameAsync in gameAsyncs:
 			games += gameAsync.get()
 		# export games
-		# df = pd.DataFrame([o.__dict__ for o in games])
-		# df.to_csv("data.csv")
-		# df = pd.DataFrame([o.toDict() for o in games])
-		# df.to_csv("data1.csv")
+		df = pd.DataFrame([o.__dict__ for o in games])
+		df.to_csv("data.csv")
+		df = pd.DataFrame([o.toDict() for o in games])
+		df.to_csv("data1.csv")
 		return games
 
 

@@ -1,17 +1,20 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+
+from Enum.GameTurn import GameTurn
+from View.Component.InteractiveGraph import interactiveGraph
 from View.Css import setGraphStyle
 
 
-def graph5(df, heroMoneyChange):
+def graph5(df):
 	st.title("bet every turn")
 	# size = df["heroCard"].str["straightDraw"],
 	# symbol = df["heroCard"].str["flushDraw"],
+	# pd.to_numeric(df['id'].str[3:])
 	fig = px.scatter(
-		df, x=pd.to_numeric(df['id'].str[3:]), y=heroMoneyChange,
-		color=df["heroCard"].str["nPair"], title="Playing with Fonts",
-		template="plotly_white")
+		df, x=df.index, y=df["heroMoneyChange"],
+		color=df["heroCard"].str["nPair"], title="Playing with Fonts")
 	fig.update_layout(legend=dict(
 		yanchor="top",
 		y=0.99,
@@ -19,7 +22,7 @@ def graph5(df, heroMoneyChange):
 		x=0.01
 	))
 	setGraphStyle(fig)
-	st.plotly_chart(fig, use_container_width=True)
+	interactiveGraph(fig, df)
 
 
 def graph6():
@@ -28,6 +31,6 @@ def graph6():
 	st.title("bet every turn")
 
 
-def Page2(df, heroMoneyChange):
-	graph5(df, heroMoneyChange)
+def Page2(df):
+	graph5(df)
 	graph6()

@@ -5,6 +5,7 @@ from statistics import mean
 from streamlit_plotly_events import plotly_events
 
 from Enum.GameTurn import GameTurn
+from View.Component.InteractiveGraph import interactiveGraph
 from View.Css import setGraphStyle
 
 
@@ -14,7 +15,7 @@ def graph1(df):
 		"y": "heroMoneyChange"
 	})
 	setGraphStyle(fig)
-	st.plotly_chart(fig, use_container_width=True)
+	interactiveGraph(fig, df)
 
 
 def graph2(df, heroFoldTurns):
@@ -25,7 +26,7 @@ def graph2(df, heroFoldTurns):
 			"y": "heroMoneyChange"
 	})
 	setGraphStyle(fig)
-	st.plotly_chart(fig, use_container_width=True)
+	interactiveGraph(fig, df)
 
 
 def graph3(df, heroFoldTurns):
@@ -57,9 +58,7 @@ def graph4(df):
 	fig.update_traces(text=np.array(df['id']),
 	                  hovertemplate='id: %{text} <br>heroMoneyChange: %{x} <br>heroHoleCardScore: %{y}')
 	fig = setGraphStyle(fig)
-	selected_points = plotly_events(fig, click_event=True)
-	if len(selected_points) != 0:
-		print(selected_points[0]["pointIndex"])
+	interactiveGraph(fig, df)
 
 
 def Page1(df, heroFoldTurns):

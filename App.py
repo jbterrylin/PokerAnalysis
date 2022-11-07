@@ -9,7 +9,10 @@ from View.Page2 import Page2
 
 
 def setScreen():
-	selectedPage = st.sidebar.selectbox('Page', ('Money', 'Card'))
+	selectedPage = st.sidebar.selectbox('Page', ('Money', 'Card', 'Turn'))
+	if 'selectedDataIndex' not in st.session_state:
+		st.session_state.selectedDataIndex = None
+
 	if 'isMoneyUnit' not in st.session_state:
 		st.session_state.isMoneyUnit = 1
 	if st.sidebar.radio("Money Unit:", ("Money", "Big Blind"), horizontal=True) == "Money":
@@ -44,4 +47,12 @@ def setScreen():
 		if selectedPage == "Money":
 			Page1(df, heroFoldTurns)
 		elif selectedPage == "Card":
-			Page2(df, heroFoldTurns)
+			Page2(df)
+		elif selectedPage == "Turn":
+			# get final turn each game with funnel chart
+			# Page2(df, heroFoldTurns)
+			print("a")
+		elif selectedPage == "Single Game":
+			# get final turn each game with funnel chart
+			# Page2(df, heroFoldTurns)
+			print("a")
