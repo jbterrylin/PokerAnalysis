@@ -44,16 +44,19 @@ def setHeroHandNCard(game):
 
 	if len(game.board) != 0:
 		for board in game.board:
+			if len(board) is not len(game.board[0]):
+				board = game.board[0][:len(board)+1] + board
 			tmp = 0
 			tmpHeroHands = []
 			for n in nCardEachTurn:
 				tmp += n
-				match game.gameType:
-					case GameType.OMAHA_PL:
-						rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
-					case _:
-						rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
-				tmpHeroHands.append(setHeroHandNCardHelper(rank, hand, evaluator))
+				if len(board) >= tmp:
+					match game.gameType:
+						case GameType.OMAHA_PL:
+							rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
+						case _:
+							rank, hand, evaluator = omaha_check_hand(game.heroCard.cards, board[:tmp])
+					tmpHeroHands.append(setHeroHandNCardHelper(rank, hand, evaluator))
 			game.heroHand.append(tmpHeroHands)
 
 	game.heroCard.score = omaha_check_hole_card(game.heroCard.cards)
