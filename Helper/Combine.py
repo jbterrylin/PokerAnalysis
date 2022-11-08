@@ -19,3 +19,7 @@ def combineMultiDictWithSum(dicts):
 	for d in dicts:
 		result = combineDictWithSum(result, d)
 	return result
+
+
+def extractValFromDictArr(dictArr, key):
+	return [d[key] for d in dictArr if key in d]

@@ -39,10 +39,21 @@ def toDict(val):
 	return val
 
 
+def flatArray(arr):
+	return [item for sublist in arr for item in sublist]
+
+
+def expandArrayLength(arr, leng, expandWith=None):
+	length = len(arr)
+	if length < leng:
+		arr.extend([expandWith] * (leng - length))
+	return arr
+
+
 def fakeIntToBB(val, bbUnit):
 	if isArray(val):
-		return [v/bbUnit[i] for i, v in enumerate(val)]
-	return val/bbUnit
+		return [v / bbUnit[i] for i, v in enumerate(val)]
+	return val / bbUnit
 
 
 def dictWithClassValueToDict(classes):

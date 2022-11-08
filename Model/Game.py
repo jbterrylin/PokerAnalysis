@@ -1,7 +1,8 @@
 from enum import Enum
 
 from Enum.GameTurn import GameTurn
-from Helper.Convert import dictWithClassValueToDict, classesToDict, allEnumInDictsToVal, allEnumInDictToVal, toDict
+from Helper.Convert import dictWithClassValueToDict, classesToDict, allEnumInDictsToVal, allEnumInDictToVal, toDict, \
+	enumToVal
 
 
 class Result(Enum):
@@ -71,6 +72,9 @@ class Game:
 
 	def toDict(self):
 		result = self.__dict__
+
+		result["gameType"] = enumToVal(self.gameType)
+
 		result["seat"] = dictWithClassValueToDict(self.seat)
 
 		result["init"] = classesToDict(self.init)
