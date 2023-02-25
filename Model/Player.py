@@ -1,3 +1,3 @@
 class Player:
-  Id = ""
-  initMoney = ""
+	id = ""
+	initMoney = ""
