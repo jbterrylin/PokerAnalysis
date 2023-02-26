@@ -93,7 +93,10 @@ class Game:
 		result["showDown"] = allEnumInDictsToVal(result["showDown"])
 		result["sumMoves"] = allEnumInDictsToVal(result["sumMoves"])
 		result["heroHand"] = allEnumInDictsToVal(result["heroHand"])
-
+		for heroHand in result["heroHand"]:
+			if heroHand is not None:
+				for hh in heroHand:
+					hh['evaluator'] = None
 		result["heroCard"] = toDict(self.heroCard)
 		result["blind"] = allEnumInDictToVal(self.blind)
 		result["bets"] = allEnumInDictToVal(self.bets)
