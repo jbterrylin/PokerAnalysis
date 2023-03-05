@@ -7,10 +7,11 @@ from Model.Move import MoveRef, Move
 from View.Page1 import Page1
 from View.Page2 import Page2
 from View.Page3 import Page3
+from View.Page4 import Page4
 
 
 def setScreen():
-	selectedPage = st.sidebar.selectbox('Page', ('Money', 'Card', 'Turn'))
+	selectedPage = st.sidebar.selectbox('Page', ('Money', 'Card', 'Turn', 'Move'))
 	if 'selectedDataIndex' not in st.session_state:
 		st.session_state.selectedDataIndex = None
 
@@ -57,6 +58,10 @@ def setScreen():
 			# get final turn each game with funnel chart
 			# Page2(df, heroFoldTurns)
 			Page3(df)
+		elif selectedPage == "Move":
+			# get final turn each game with funnel chart
+			# Page2(df, heroFoldTurns)
+			Page4(df)
 		elif selectedPage == "Single Game":
 			# get final turn each game with funnel chart
 			# Page2(df, heroFoldTurns)

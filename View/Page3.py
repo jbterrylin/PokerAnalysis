@@ -26,8 +26,6 @@ def graph1(df: pd.DataFrame):
   df["final_move_turn"] = [graph1Helper(d) for _, d in df[["flop","turn","river"]].iterrows()]
   finalMoveTurn = df["final_move_turn"].value_counts()
   finalMoveTurn.sort_index()
-  print(finalMoveTurn)
-  print(finalMoveTurn.loc[GameTurn.FLOP.value])
   data = dict(
     number=[
       finalMoveTurn[GameTurn.PREFLOP.value],
@@ -36,7 +34,7 @@ def graph1(df: pd.DataFrame):
       finalMoveTurn[GameTurn.RIVER.value]],
     stage=[GameTurn.PREFLOP.value,GameTurn.FLOP.value,GameTurn.TURN.value,GameTurn.RIVER.value])
   fig = px.funnel(data, x='number', y='stage')
-  st.plotly_chart(fig)
+  st.plotly_chart(fig, use_container_width=True)
 
 def Page3(df: pd.DataFrame):
 	graph1(df)
