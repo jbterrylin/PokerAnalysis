@@ -23,7 +23,6 @@ def graph1Helper(df: pd.DataFrame):
 
 def graph1(df: pd.DataFrame):
   st.title("Turn Reach Count")
-  print([graph1Helper(d) for _, d in df[["flop","turn","river"]].iterrows()])
   df["final_move_turn"] = [graph1Helper(d) for _, d in df[["flop","turn","river"]].iterrows()]
   finalMoveTurn = df["final_move_turn"].value_counts()
   finalMoveTurn.sort_index()
