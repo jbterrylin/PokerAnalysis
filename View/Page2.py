@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import plotly.express as px
+from statistics import mean
 
 import Enum
 from Enum.GameTurn import GameTurn
@@ -61,11 +62,14 @@ def graph2(df: pd.DataFrame):
 	                   color='hands', barmode='group')
 	st.plotly_chart(fig, use_container_width=True)
 
-def graph3():
-	# fig = px.line(
-	# 	df, x=df.index, y=df["heroMoneyChange"],
-	# 	color=df["heroCard"].str[feature])
-	st.title("bet every turn")
+def graph3(df: pd.DataFrame):
+	st.title("heroMoneyChange with hero card score")
+	df["mean"] = [mean(d["score"]) for d in df["heroCard"]]
+	df["max"] = [max(d["score"]) for d in df["heroCard"]]
+	df["min"] = [min(d["score"]) for d in df["heroCard"]]
+	df["heroMoneyChange_positive"] = [d * 5 if d >= 0 else d *-1 * 5 for d in df["heroMoneyChange"]]
+	fig = px.scatter_3d(df, x='min', y='max', z='mean', color=df["heroResult"], size=df["heroMoneyChange_positive"])
+	st.plotly_chart(fig, use_container_width=True)
 
 
 # only get first board
@@ -77,10 +81,8 @@ def heroHands_TurnHelper(row):
 
 
 def Page2(df):
-	# for a in df["heroHand"]:
-	# 	for b in a:
-	# 		print(b)
 	df["heroHands_Hands"] = [heroHands_TurnHelper(d) for _, d in df[["heroHand"]].iterrows()]
 
 	graph1(df)
 	graph2(df)
+	graph3(df)

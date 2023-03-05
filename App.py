@@ -6,6 +6,7 @@ from Helper.Convert import fakeIntToBB
 from Model.Move import MoveRef, Move
 from View.Page1 import Page1
 from View.Page2 import Page2
+from View.Page3 import Page3
 
 
 def setScreen():
@@ -23,7 +24,7 @@ def setScreen():
 	if 'removePlain' not in st.session_state:
 		st.session_state.removePlain = 1
 	if st.sidebar.radio("Remove Plain:", ("True", "False"), horizontal=True, help="remove heroMoneyChange is > -1bb and "
-	                                                                              "< 1bb") == "True":
+																																								"< 1bb") == "True":
 		st.session_state.removePlain = 1
 	else:
 		st.session_state.removePlain = 0
@@ -46,8 +47,8 @@ def setScreen():
 		for _, row in df.iterrows():
 			moves = sorted(row["sumMoves"], key=lambda x: x["id"])
 			heroFoldTurns.append(next((m["turn"] for m in moves if
-			                           (m["player"] == "Hero" and (m["move"] == Move.FOLD.value or m.get("isAllIn", False)))),
-			                          GameTurn.SHOWDOWN.value))
+																 (m["player"] == "Hero" and (m["move"] == Move.FOLD.value or m.get("isAllIn", False)))),
+																GameTurn.SHOWDOWN.value))
 		if selectedPage == "Money":
 			Page1(df, heroFoldTurns)
 		elif selectedPage == "Card":
@@ -55,7 +56,7 @@ def setScreen():
 		elif selectedPage == "Turn":
 			# get final turn each game with funnel chart
 			# Page2(df, heroFoldTurns)
-			print("a")
+			Page3(df)
 		elif selectedPage == "Single Game":
 			# get final turn each game with funnel chart
 			# Page2(df, heroFoldTurns)
